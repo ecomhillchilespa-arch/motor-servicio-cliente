@@ -16,7 +16,9 @@
 - **Hoy, 20-nov, vencía la promesa de Jie** de despachar todo el atraso de AlbaMed (el lote de 1.400). Según los datos, desde el 15-nov casi no ha salido nada. Hay que confirmar con Jie.
 - Los lotes de 600 y de 1.500 (bolsa QuietLab) estaban **sin fecha** de llegada. Mientras no tengan fecha, el Sheet no los cuenta.
 - Las 5.000 bolsas y los 5.000 manuales llegaban del 26 al 28-nov.
-- Pendientes: extender la vista STOCK más allá del 31-dic, definir con Martin los avisos a Slack y proponer la estructura del «motor de stock» a cargo de Karla.
+- **El Sheet no tiene nada anotado desde el 17-nov.** Hay 2 encargos con llegada vencida sin «Llegó». Karla tiene que pedirle a Jie el conteo y confirmar si llegaron las 1.400; después se anota.
+- No se sabe si el grupo de WeChat ya existe con Karla adentro.
+- Pendientes: extender la vista STOCK más allá del 31-dic, definir con Martin los avisos a Slack y retirar el flujo viejo de Notion `otIQ0Q7plk23X4Yb` (espera el OK de Martin).
 
 ## Por hacer (motor)
 - **Moldes nuevos** que pidió Martin, para mostrárselos con casos reales:

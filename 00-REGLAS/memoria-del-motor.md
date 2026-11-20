@@ -36,6 +36,12 @@
 
 **Sin acuses vacíos.** El correo de cambio de dirección sale solo cuando Jie confirma, en un solo correo con el resultado. Jie confirma en unas 9 horas (mediana) y como máximo en 32. Si pasan 2 días y la clienta vuelve a escribir, se le da algo real.
 
+## Stock
+
+**No se le sugieren pedidos ni pagos a Martin** (Martin, 18-nov). Encargar a la fábrica lo resuelve Jie, que cobra al despachar. Ni el Sheet ni Claude proponen cuánto pedir ni cuánto pagar. A Martin se le pasan datos, no «hay que pedir N». Los pagos son de Martin y solo como última opción. Ver `40-STOCK/LEEME.md`.
+
+**El Sheet es la memoria del stock.** Lo que se acuerda en WeChat (que el motor no puede leer) se anota en el Sheet, o no existe. Los mensajes a Jie y a Kevin los mandan Martin o Karla, nunca Claude.
+
 ## Errores que ya pasaron (para no repetirlos)
 
 - **19-nov:** la columna «✔ Enviar» quedó sin nombre al agregar columnas en Notion y el envío falló un día entero. Si un flujo dice «Could not find property», lo primero es revisar los nombres de las columnas.
