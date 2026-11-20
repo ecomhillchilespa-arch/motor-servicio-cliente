@@ -12,6 +12,19 @@ Esta carpeta es la misma para los dos: está en GitHub (repositorio privado) y c
 - Después de cambiar una regla, un molde, el mapa del sistema o la memoria: commit con un mensaje simple en español (qué cambió y por qué) y `git push`.
 - Cada cambio al sistema (n8n, Supabase, Notion) se anota también en `SISTEMA.md`, para que el otro sepa qué se hizo.
 
+**El buzón de propuestas (GitHub Issues con la etiqueta `para-martin`).** Karla no tiene acceso a n8n (Martin, 20-nov). Si su sesión encuentra algo que arreglar en n8n, o cualquier cosa que decide Martin (molde nuevo, plata, salud, legal), **no lo aplica**: abre un issue en el repositorio con
+`gh issue create --label para-martin --title "<qué arregla, en simple>" --body "<cuerpo>"`.
+El cuerpo lleva:
+- qué falla y cómo se vio, con datos;
+- por qué pasa;
+- el cambio exacto (flujo e id, nodo, antes → después);
+- cómo se prueba;
+- qué pasa si no se hace.
+
+En la sesión de Martin, cuando él pide «revisa las propuestas de Karla» (o al empezar, si hay issues abiertos con `para-martin`): `gh issue list --label para-martin`, explicarle cada una en simple y preguntarle sí o no. Después:
+- si dice que sí: aplicarlo, probarlo, anotarlo en `SISTEMA.md`, comentar qué se hizo, poner la etiqueta `aplicado` y cerrar el issue;
+- si dice que no: comentar su razón y cerrar el issue.
+
 Lo que está abierto hoy está en `EN-QUE-ESTAMOS.md`: léelo al empezar y actualízalo cuando cierres o abras algo.
 
 La memoria compartida (lo que ya se corrigió) está en `00-REGLAS/memoria-del-motor.md`. Si alguien corrige algo que sirve para siempre, se agrega ahí en el momento.

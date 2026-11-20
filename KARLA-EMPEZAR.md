@@ -23,7 +23,6 @@ Claude lee solo las reglas de voz, los moldes, el mapa del sistema y la memoria.
 En claude.ai, entra a **Settings → Connectors** y conecta:
 - **Notion**, con tu cuenta. Es donde está tu lista «✅ Tareas de Karla».
 - **Supabase**. Martin te invita a la organización con tu correo; acepta la invitación y después conéctalo.
-- **n8n**. Martin te crea un usuario en el n8n de la tienda y te dice cómo conectarlo.
 - **Google Drive**, con la cuenta de Google con la que ves el Sheet «Alegres Mexico». Es para que Claude lea y anote el stock.
 
 La primera vez que Claude intente leer el WhatsApp, tu Mac puede pedir permiso de «Acceso total al disco». Dáselo a Claude, porque sin eso no ve el grupo.
@@ -36,7 +35,15 @@ La primera vez que Claude intente leer el WhatsApp, tu Mac puede pedir permiso d
 - «¿Cómo está el stock de AlbaMed?» o «¿Jie está despachando?»
 - «Kevin dijo esto en WeChat: [pegas el texto o el pantallazo]. Anótalo en el Sheet.»
 
-**Lo que decide Martin** (Claude te lo deja como propuesta y le avisa): moldes nuevos, plata y reembolsos, salud y legal.
+**Lo que decide Martin:** moldes nuevos, plata y reembolsos, salud y legal, y los cambios en n8n, que es donde corren los flujos automáticos y donde tú no entras.
+
+Para eso está el **buzón de propuestas**. Le dices a Claude «propónselo a Martin» y Claude le escribe la propuesta en GitHub, con qué falla, por qué y qué cambiaría.
+- A Martin le llega el aviso, lo revisa con su Claude y dice sí o no.
+- Cuando lo aplica, a ti te llega el aviso de que quedó listo.
+
+Así puedes mejorar todo el motor sin esperar a que Martin se dé cuenta del problema.
+
+Para que tu Claude pueda escribir en el buzón, la primera vez dile: «instala la herramienta de GitHub (`brew install gh`) y conéctala con mi cuenta». Te va a pedir que entres a GitHub una vez desde el navegador.
 
 ## 6. Para no pisarnos con Martin
 - Al empezar, pídele a Claude «haz git pull».
