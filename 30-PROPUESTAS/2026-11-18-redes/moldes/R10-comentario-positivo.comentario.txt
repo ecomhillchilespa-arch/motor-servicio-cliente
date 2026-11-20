@@ -1,0 +1,2 @@
+Hola {nombre}, ¡qué alegría leerte! Muchas gracias por tomarte el tiempo de contarlo.
+Mariana
