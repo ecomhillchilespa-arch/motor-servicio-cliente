@@ -1,4 +1,4 @@
-# Motor de Servicio al Cliente — Alegres México
+# Motor de Servicio al Cliente — Alegres México (v1.0)
 
 Atiende los correos de las clientas de Alegres México (VisionPure y AlbaMed) con la voz de Mariana. Gestiona con Jie lo que hace falta para resolverlos y avisa a cada área solo lo que le toca. Se opera con Claude Code desde esta carpeta.
 
