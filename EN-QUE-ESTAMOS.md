@@ -6,7 +6,6 @@
 - **5 correos de cambio de dirección** listos en su Notion para «✔ Enviar»: #13371, #13370, #13340, #12788 y #12051. El #13371 es el más urgente, porque preguntó dónde ver su guía.
 
 ## Esperando a Martin (decisiones)
-- **Encender «Jie confirmó → correo»** (`ops_alegres_config.confirmaciones_karla_activo`). Ya está armado y probado en seco: ver `SISTEMA.md`, sección «Correos que el motor deja listos para Karla».
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.
 - **Molde B (rescate J&T)**: lo aprueba Martin.
 - **#4562, #11621 y #3073**: Karla los archivó sin mandarlos a Jie y parecen casos viejos ya resueltos. ¿Se cierran?
@@ -21,6 +20,8 @@
 - Pendientes: extender la vista STOCK más allá del 31-dic, definir con Martin los avisos a Slack y retirar el flujo viejo de Notion `otIQ0Q7plk23X4Yb` (espera el OK de Martin).
 
 ## Por hacer (motor)
+- **Scorecard EOS de Karla (20-nov):** dos números automáticos (`SISTEMA.md`, sección «Scorecard EOS de Karla»). El de gestiones depende de que alguien marque las respuestas de Jie; hoy lo hacen las tareas de Claude del Mac de Martin. Falta que `clienta_avisada_at` se marque también cuando sale un correo por la lista de Karla.
+- **«Jie confirmó → correo» encendido el 20-nov.** Revisar en unos días cuántos llegaron a la lista de Karla y cuántos quedaron como excepción.
 - **Moldes nuevos** que pidió Martin, para mostrárselos con casos reales:
   - pedido fuera de México (#12505 Uruguay y #13338 Colombia esperan este molde);
   - AlbaMed sin stock (la base es `20-CASOS/2026-11-17-albamed-atraso-stock.md`);

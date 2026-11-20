@@ -127,9 +127,21 @@ Causa: el redactor procesaba correos viejos de personas que ya tenían una conve
   - Toma los cambios de dirección de México con `jie_hecho` en los últimos 10 días y sin correo después.
   - Arma el molde aprobado con 3 variantes: confirmación, confirmación con disculpa si esperó más de 3 días, o solo la buena noticia si ya le dijimos que lo retuvimos.
   - Usa la guía nueva de Jie o, si no viene, la del rastreo. Va sin fecha (regla 10) y pasa el revisor.
-  - **Interruptor:** `ops_alegres_config.confirmaciones_karla_activo` (está en `false` hasta que Martin lo apruebe). Con `p_aplicar = false` es una prueba en seco que devuelve lo que saldría.
+  - **Interruptor:** `ops_alegres_config.confirmaciones_karla_activo`, **encendido el 20-nov** por orden de Martin (vía la sesión CEO). Con `p_aplicar = false` es una prueba en seco que devuelve lo que saldría. Al encenderlo no había casos pendientes: arma solo los nuevos. No cubre los reenvíos (eso es el molde «tu reenvío ya salió», que sigue esperando a Martin).
+  - Resguardo (20-nov): si el último correo de la clienta ya tiene otra respuesta en el motor, queda como excepción (antes rompía la restricción única de `mensaje_id` y botaba el nodo de K3).
   - Excepciones (no arma nada): fuera de México, sin nombre claro, sin guía, o la clienta no escribió por correo.
 - **K1 (20-nov):** ahora toma «✔ Enviar» aunque la fila esté archivada. **K3 (20-nov):** si Karla archiva un correo sin «✔ Enviar», vuelve con una nota; si escribió algo en «Nota Karla», se respeta el archivo.
+
+## Scorecard EOS de Karla (20-nov, Martin vía sesión CEO)
+Dos números semanales que se calculan solos. Son funciones de solo lectura en Supabase y la scorecard las lee cada mañana. Sábado y domingo no cuentan: `ops_alegres_dias_habiles(desde, hasta)` cuenta lunes a viernes, hora de Ciudad de México, con decimales.
+- **Gestiones con Jie colgando:** `ops_alegres_kpi_gestiones_colgadas()`. Devuelve el número, el desglose y el detalle por pedido. Meta ≤ 5.
+  - Cuenta las gestiones en `por_enviar` desde `created_at` y las de `enviado` desde `enviado_at`, con más de 2 días hábiles.
+  - Fuera del número: `jie_hecho` (el aviso a la clienta es del motor y de los moldes) y `esperando_dato` (espera a la clienta). El 20-nov daba 14.
+- **Días desde el último conteo de Jie:** `ops_alegres_kpi_conteo_stock()`. Meta ≤ 2.
+  - Lee `ops_alegres_kpi_stock`, que M1 llena cada mañana con la fecha del último conteo de AlbaMed en «STOCK registro» (nodos «Último conteo (KPI)» y «Guardar KPI en Supabase»).
+  - Si M1 no corre, el campo `ojo` lo avisa. El 20-nov daba 2,7 (último conteo: 17-nov).
+- **Ojo con `jie_respuesta_at`:** lo marcan las tareas de Claude en el Mac de Martin (`motor-sac` y `mensaje-diario-jie`), que leen el WhatsApp, o Karla con su marca en Notion (K2 → `ops_alegres_karla_marco`). Si el Mac está apagado y Karla no marca, las gestiones se quedan en `enviado` y el número sube aunque Jie haya respondido.
+- `clienta_avisada_at` solo lo pone el trigger `ops_alegres_al_confirmar_jie`. Los correos que salen por la lista de Karla no lo marcan, así que «`jie_hecho` sin clienta avisada» está inflado (7 de los 14 cambios de dirección ya tienen correo).
 
 ## Lista «🤝 Megafulfill» de Karla (20-nov)
 - **Notion:** `collection://41ee3bfc-6a93-81b8-9dd8-000bb77181fe` (db `41ee3bfc6a9381ccb0cdc253ecb5ff72`).
