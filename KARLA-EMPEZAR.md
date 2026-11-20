@@ -55,7 +55,7 @@ Para que tu Claude pueda escribir en el buzón, la primera vez dile: «instala l
 - **«✅ Tareas de Karla»**: lo de las clientas, como siempre.
 - **«🤝 Megafulfill»** (nueva):
   - **cobros mal hechos:** los revisas y juntas los casos, pero el reclamo de la plata lo manda Martin;
-  - **seguimiento de AlbaMed:** cada mañana a las 9:00, con semáforo y el mensaje para Jie listo para copiar;
+  - **seguimiento de AlbaMed:** cada mañana a las 9:00, con semáforo y el mensaje para Jie listo para copiar. Cuando Jie o Kevin respondan, anota en esa misma fila el conteo («Jie: en bodega» o «Jie: le faltan»), lo que llegó («Llegaron: cantidad» y fecha) o lo que confirmaron que llega («Llegan: cantidad» y fecha). El motor lo pasa solo al Sheet;
   - **pendientes con Jie.**
 
 ## 8. Redes sociales (ahora tuyas)

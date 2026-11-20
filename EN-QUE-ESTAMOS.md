@@ -12,6 +12,7 @@
 - **Redes sociales:** desde el 20-nov las lleva Karla (`60-REDES/LEEME.md`). A Martin le quedan las decisiones de salud, legal y plata (1, 3, 4, 5 y 6). Karla ya tiene acceso a Meta Business Suite y al correo de la tienda (20-nov).
 
 ## Stock (ver `40-STOCK/LEEME.md`)
+- **Desde el 20-nov Karla anota el stock en su Notion** (conteo, llegadas y fechas confirmadas) y M2 lo pasa al Sheet. Revisar que la primera vez quede bien en el Sheet.
 - **Hoy, 20-nov, vencía la promesa de Jie** de despachar todo el atraso de AlbaMed (el lote de 1.400). Según los datos, desde el 15-nov casi no ha salido nada. Hay que confirmar con Jie.
 - Los lotes de 600 y de 1.500 (bolsa QuietLab) estaban **sin fecha** de llegada. Mientras no tengan fecha, el Sheet no los cuenta.
 - Las 5.000 bolsas y los 5.000 manuales llegaban del 26 al 28-nov.

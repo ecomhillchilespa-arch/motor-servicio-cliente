@@ -153,6 +153,12 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
   - Lee el Sheet (registro y encargos) y `ops_alegres_stock_por_dia`.
   - Arma un semáforo y el mensaje para Jie. Nunca sugiere pedidos ni pagos.
 
+## Stock: lo que anota Karla en Notion → Sheet (20-nov)
+- **M2** `4QIxYGwOpRnOnNC6`, cada 30 minutos (:05 y :35). Lee las filas de «🤝 Megafulfill» con «En el Sheet» sin marcar y algún número en «Jie: en bodega», «Jie: le faltan», «Llegaron: cantidad» o «Llegan: cantidad».
+- Escribe en «STOCK registro» (conteo) y «STOCK encargos» (llegó: columnas E y F; llega: columna D; o una fila nueva). Llama a `ops_alegres_kpi_guardar_conteo` y marca «En el Sheet». Reglas en `40-STOCK/LEEME.md`.
+- **Las columnas nuevas** («Jie: en bodega», «Jie: le faltan», «Llegaron: cantidad», «Llegaron: fecha», «Llegan: cantidad», «Llegan: fecha», «En el Sheet») las busca M2 por nombre: no se renombran.
+- M1 ahora le explica a Karla qué campos llenar.
+
 ## Redes sociales (propuesta, 18-nov · nada encendido)
 - El diagnóstico, el motor propuesto, las reglas, los moldes en borrador y las decisiones de Martin están en `30-PROPUESTAS/2026-11-18-redes/` (partir por `00-LEEME.md`).
 - `scripts/revisar_redes.py` es el revisor de redes, en borrador hasta que Martin apruebe `03-reglas-redes.md`.

@@ -51,11 +51,18 @@ Por eso el riesgo de quiebre está casi todo en AlbaMed.
 ## El motor de stock: la rutina diaria de Karla con su Claude
 **Desde el 20-nov, cada mañana a las 9:00 llega solo** a la lista «🤝 Megafulfill» un «Seguimiento AlbaMed» con semáforo (🟢 🟡 🔴), lo que pasa y el mensaje para Jie listo para copiar (flujo M1 `oUURcRFeWw1vskWM`). Si nadie le escribió nada, el del día anterior se archiva solo.
 
+**Karla anota en su Notion, no en el Sheet (Martin, 20-nov).** En la fila del seguimiento del día llena lo que confirmó Jie o Kevin: «Jie: en bodega» o «Jie: le faltan» (el conteo), «Llegaron: cantidad» y «Llegaron: fecha», o «Llegan: cantidad» y «Llegan: fecha» (lo que confirmaron que llega y qué día). El flujo M2 (`4QIxYGwOpRnOnNC6`, cada 30 minutos) lo pasa al Sheet y marca «En el Sheet»:
+- el conteo va como fila nueva en «STOCK registro», con la respuesta de Jie como nota;
+- una llegada completa el encargo abierto con esa cantidad, o la suma de 2 o 3 encargos (1.000 + 400 = 1.400). Si no calza, completa los más antiguos; si llegó solo una parte, «Falta que llegue» muestra el resto;
+- una fecha confirmada se pone en el encargo con esa cantidad que no tenía fecha. Si no calza con ninguno, crea un encargo nuevo con una nota para revisar que no esté repetido.
+- Espera 10 minutos desde la última edición por si Karla sigue escribiendo. Si pone «Llegan: cantidad» sin fecha, espera la fecha.
+- Lo que se cambia después de marcado «En el Sheet» no se vuelve a pasar: se corrige en el Sheet.
+
 Si Karla le pide a su Claude «revisa el stock», Claude hace esto:
 1. **Lee las cajas de STOCK** y reporta solo lo que esté en rojo o amarillo.
 2. **Revisa los encargos con llegada vencida** que no tienen «Llegó», y los días sin dato de Jie: más de 3 es amarillo y más de 5, rojo.
 3. **Arma el mensaje del día para Jie o Kevin**, listo para pegar en WeChat: pedir el conteo, confirmar una llegada o pedir la fecha de los lotes que no tienen. Lo manda Karla.
-4. **Cuando Karla pega la respuesta**, Claude la deja como fila en «STOCK registro» o «STOCK encargos», con la frase textual.
+4. **Cuando Karla pega la respuesta**, Claude le dice qué campos llenar en la fila del Notion (o los llena él), y M2 la pasa al Sheet.
 
 Además, Karla pide el conteo a Jie **cada 2 días**.
 
