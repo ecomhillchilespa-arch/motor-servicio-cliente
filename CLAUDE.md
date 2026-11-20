@@ -12,6 +12,8 @@ Esta carpeta es la misma para los dos: está en GitHub (repositorio privado) y c
 - Después de cambiar una regla, un molde, el mapa del sistema o la memoria: commit con un mensaje simple en español (qué cambió y por qué) y `git push`.
 - Cada cambio al sistema (n8n, Supabase, Notion) se anota también en `SISTEMA.md`, para que el otro sepa qué se hizo.
 
+Lo que está abierto hoy está en `EN-QUE-ESTAMOS.md`: léelo al empezar y actualízalo cuando cierres o abras algo.
+
 La memoria compartida (lo que ya se corrigió) está en `00-REGLAS/memoria-del-motor.md`. Si alguien corrige algo que sirve para siempre, se agrega ahí en el momento.
 
 @00-REGLAS/memoria-del-motor.md
