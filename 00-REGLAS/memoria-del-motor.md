@@ -30,6 +30,8 @@
 - La excepción son los correos para la clienta: archivarlos no los manda, así que vuelven con una nota que pide marcar «✔ Enviar».
 - Antes de pedirle a alguien que cambie cómo marca algo, se mira en los datos qué hace de verdad.
 
+**Karla trabaja en Notion, no en Slack** (Martin, 20-nov: «quiero que use harto el Notion»). Todo lo suyo llega a una de sus dos listas: «✅ Tareas de Karla» (clientas) o «🤝 Megafulfill» (cobros mal hechos, stock de AlbaMed y pendientes con Jie).
+
 ## Textos para clientas
 
 **La fecha de llegada se esconde salvo que pregunten** (Martin, 20-nov: «nuestros tiempos de envío son malos y siempre trato de ocultarlos»). Se da el enlace de rastreo. La fecha solo va si la clienta pregunta cuándo llega o si llega en menos de 7 días. Está en la regla 10 de `voz.md`.

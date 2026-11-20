@@ -50,7 +50,14 @@ Para que tu Claude pueda escribir en el buzón, la primera vez dile: «instala l
 - Cuando cambies algo, pídele «guarda y sube el cambio». Claude hace el commit y el push.
 - Si corriges algo que sirve para siempre, dile «anótalo en la memoria del motor».
 
-## 7. Lo de siempre en tu Notion (no cambia)
+## 7. Tus dos listas en Notion
+- **«✅ Tareas de Karla»**: lo de las clientas, como siempre.
+- **«🤝 Megafulfill»** (nueva):
+  - **cobros mal hechos:** los revisas y juntas los casos, pero el reclamo de la plata lo manda Martin;
+  - **seguimiento de AlbaMed:** cada mañana a las 9:00, con semáforo y el mensaje para Jie listo para copiar;
+  - **pendientes con Jie.**
+
+## 8. Lo de siempre en tu Notion (no cambia)
 - Tu visto al lado de la tarea significa «listo». Sigue igual.
 - Los **correos para la clienta** son la única excepción: para que salgan, marca **✔ Enviar**. Si solo los archivas, vuelven con una nota.
 - No cambies el nombre de las columnas, porque el motor las busca por nombre.

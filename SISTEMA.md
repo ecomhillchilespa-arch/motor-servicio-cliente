@@ -131,6 +131,16 @@ Causa: el redactor procesaba correos viejos de personas que ya tenían una conve
   - Excepciones (no arma nada): fuera de México, sin nombre claro, sin guía, o la clienta no escribió por correo.
 - **K1 (20-nov):** ahora toma «✔ Enviar» aunque la fila esté archivada. **K3 (20-nov):** si Karla archiva un correo sin «✔ Enviar», vuelve con una nota; si escribió algo en «Nota Karla», se respeta el archivo.
 
+## Lista «🤝 Megafulfill» de Karla (20-nov)
+- **Notion:** `collection://41ee3bfc-6a93-81b8-9dd8-000bb77181fe` (db `41ee3bfc6a9381ccb0cdc253ecb5ff72`).
+  - Ref: `c:<fecha>:<tipo>` (cobros), `st:<fecha>` (stock) y `p:<tema>` (pendientes).
+- **Cobros mal hechos:** rama «Para Karla» del flujo `cM44xJ9zP4hzonjP`, que recibe el POST del control de Martin.
+  - Entran: precio mal cobrado, regalo cobrado, reenvío cobrado como nuevo, pedido que no corresponde y pestaña nueva (salvo las STOCK).
+  - Lo de plata no entra.
+- **Seguimiento de AlbaMed:** M1 `oUURcRFeWw1vskWM`, 09:00 Chile.
+  - Lee el Sheet (registro y encargos) y `ops_alegres_stock_por_dia`.
+  - Arma un semáforo y el mensaje para Jie. Nunca sugiere pedidos ni pagos.
+
 ## Redes sociales (propuesta, 18-nov · nada encendido)
 - El diagnóstico, el motor propuesto, las reglas, los moldes en borrador y las decisiones de Martin están en `30-PROPUESTAS/2026-11-18-redes/` (partir por `00-LEEME.md`).
 - `scripts/revisar_redes.py` es el revisor de redes, en borrador hasta que Martin apruebe `03-reglas-redes.md`.

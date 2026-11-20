@@ -46,6 +46,7 @@ Se arma el sistema, no se atiende caso a caso. Por cada tipo de caso: 1 o 2 ejem
 | `10-FLUJOS/` | qué hacer en cada tipo de caso, paso a paso |
 | `20-CASOS/` | casos aprobados por Martin (el ejemplo manda sobre la teoría) |
 | `40-STOCK/` | **control de stock** de AlbaMed y VisionPure en la bodega de Jie: el Sheet, quién llena qué, cómo calcula, la rutina de Karla y el grupo de WeChat con Kevin. Leer `40-STOCK/LEEME.md` antes de hablar de stock |
+| `50-COBROS/` | lo que Karla ve de los **cobros de Jie** y lo que es solo de Martin |
 | `EN-QUE-ESTAMOS.md` | los pendientes de hoy |
 | `CONEXIONES.md` | cómo habla con Jie, Karla, Martin, el control, Finanzas y Shopify |
 | `scripts/revisar_borrador.py` | el revisor automático de borradores |
@@ -65,6 +66,7 @@ Se arma el sistema, no se atiende caso a caso. Por cada tipo de caso: 1 o 2 ejem
   - El webhook `mensaje-suppliers` publica texto en Slack #suppliers.
 - **WhatsApp**, solo lectura: `~/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/ChatStorage.sqlite` (abrir con mode=ro). Grupo Alegres Store `120363224787040227@g.us`. En el Mac de Martin, el miembro 1375 es Jie y el 1343 es Karla; en otro Mac esos números cambian, así que hay que buscarlos por nombre en `ZWAGROUPMEMBER`. En el Mac de Karla, sus propios mensajes son los que tienen `ZISFROMME = 1`.
 - **Tareas programadas:** «mensaje-diario-jie» (19:30) y «control-semanal-megafulfill» (10:00, de la otra sesión). Corren en el Mac de Martin; desde otro Mac no se tocan.
+- **Notion de Karla, segunda lista:** «🤝 Megafulfill», `collection://41ee3bfc-6a93-81b8-9dd8-000bb77181fe`. La llenan la rama «Para Karla» del flujo de alertas de cobros (`cM44xJ9zP4hzonjP`) y el seguimiento diario de AlbaMed (M1 `oUURcRFeWw1vskWM`, 09:00). **Karla trabaja en Notion, no en Slack** (Martin, 20-nov).
 - **Notion de Karla:** «✅ Tareas de Karla», `collection://41ce3bfc-6a93-81f6-8c34-000bc2681b69`. Lo llenan K3 (cada hora), K2 (sus marcas) y K1 («✔ Enviar» → cola). Detalle en `SISTEMA.md`. **No cambiar el nombre de las columnas** («✔ Enviar», «Archivar», «Ref motor», «Estado», «Prueba», «Texto para la clienta»), porque los flujos las buscan por nombre. Tampoco se tocan las vistas.
 
 ## Reglas duras

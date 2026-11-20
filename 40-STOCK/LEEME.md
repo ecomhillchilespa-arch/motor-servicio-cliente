@@ -49,7 +49,9 @@ Por eso el riesgo de quiebre está casi todo en AlbaMed.
 - **Stock en vivo:** el día anterior + lo que entra − lo vendido. Si ese día hay dato de Jie, parte del dato: «le faltan X» resta X; «en bodega X» da X menos lo vendido sin despachar.
 - **Lo que entra:** los encargos de férulas, por fecha de llegada (o la estimada). **Lo que no tiene fecha no entra a la proyección hasta que Karla la anote.**
 ## El motor de stock: la rutina diaria de Karla con su Claude
-Karla le pide a su Claude «revisa el stock» y Claude hace esto:
+**Desde el 20-nov, cada mañana a las 9:00 llega solo** a la lista «🤝 Megafulfill» un «Seguimiento AlbaMed» con semáforo (🟢 🟡 🔴), lo que pasa y el mensaje para Jie listo para copiar (flujo M1 `oUURcRFeWw1vskWM`). Si nadie le escribió nada, el del día anterior se archiva solo.
+
+Si Karla le pide a su Claude «revisa el stock», Claude hace esto:
 1. **Lee las cajas de STOCK** y reporta solo lo que esté en rojo o amarillo.
 2. **Revisa los encargos con llegada vencida** que no tienen «Llegó», y los días sin dato de Jie: más de 3 es amarillo y más de 5, rojo.
 3. **Arma el mensaje del día para Jie o Kevin**, listo para pegar en WeChat: pedir el conteo, confirmar una llegada o pedir la fecha de los lotes que no tienen. Lo manda Karla.
