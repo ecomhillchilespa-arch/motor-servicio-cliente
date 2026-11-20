@@ -140,6 +140,7 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - **Días desde el último conteo de Jie:** `ops_alegres_kpi_conteo_stock()`. Meta ≤ 2.
   - Lee `ops_alegres_kpi_stock`, que M1 llena cada mañana con la fecha del último conteo de AlbaMed en «STOCK registro» (nodos «Último conteo (KPI)» y «Guardar KPI en Supabase»).
   - Si M1 no corre, el campo `ojo` lo avisa. El 20-nov daba 2,7 (último conteo: 17-nov).
+- **Cómo llegan a la scorecard:** `ops_alegres_kpi_karla()` (solo los dos números, sin pedidos) → webhook n8n `x7eMb0NOMG7wVMVi` → `scripts/kpi_karla_scorecard.py`, que corre en `~/log-diario/correr.sh` (launchd 07:00, Mac de Martin). Escribe `gestiones_jie` y `conteo_stock` en `~/log-diario/scorecard.json` del viernes de la semana. Si falla o el dato tiene más de 36 h, escribe «⚠️ sin dato» o «⚠️ dato viejo»; nunca un número viejo. La dirección del webhook está solo en el Mac de Martin (`~/log-diario/.kpi_karla_url`), no en el repo.
 - **Ojo con `jie_respuesta_at`:** lo marcan las tareas de Claude en el Mac de Martin (`motor-sac` y `mensaje-diario-jie`), que leen el WhatsApp, o Karla con su marca en Notion (K2 → `ops_alegres_karla_marco`). Si el Mac está apagado y Karla no marca, las gestiones se quedan en `enviado` y el número sube aunque Jie haya respondido.
 - `clienta_avisada_at` solo lo pone el trigger `ops_alegres_al_confirmar_jie`. Los correos que salen por la lista de Karla no lo marcan, así que «`jie_hecho` sin clienta avisada» está inflado (7 de los 14 cambios de dirección ya tienen correo).
 
