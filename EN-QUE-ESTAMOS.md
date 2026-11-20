@@ -10,7 +10,7 @@
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.
 - **Molde B (rescate J&T)**: lo aprueba Martin.
 - **#4562, #11621 y #3073**: Karla los archivó sin mandarlos a Jie y parecen casos viejos ya resueltos. ¿Se cierran?
-- **Redes sociales**: la propuesta espera 8 decisiones (`30-PROPUESTAS/2026-11-18-redes/00-LEEME.md`).
+- **Redes sociales:** desde el 20-nov las lleva Karla (`60-REDES/LEEME.md`). A Martin le quedan las decisiones de salud, legal y plata (1, 3, 4, 5 y 6) y darle acceso a Meta Business Suite.
 
 ## Stock (ver `40-STOCK/LEEME.md`)
 - **Hoy, 20-nov, vencía la promesa de Jie** de despachar todo el atraso de AlbaMed (el lote de 1.400). Según los datos, desde el 15-nov casi no ha salido nada. Hay que confirmar con Jie.

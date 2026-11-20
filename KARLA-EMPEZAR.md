@@ -57,7 +57,10 @@ Para que tu Claude pueda escribir en el buzón, la primera vez dile: «instala l
   - **seguimiento de AlbaMed:** cada mañana a las 9:00, con semáforo y el mensaje para Jie listo para copiar;
   - **pendientes con Jie.**
 
-## 8. Lo de siempre en tu Notion (no cambia)
+## 8. Redes sociales (ahora tuyas)
+El motor de redes todavía no existe: hay un diagnóstico y una propuesta. Lo armas tú con tu Claude, partiendo por `60-REDES/LEEME.md`. Para ver y responder comentarios mientras tanto, Martin te da acceso a Meta Business Suite.
+
+## 9. Lo de siempre en tu Notion (no cambia)
 - Tu visto al lado de la tarea significa «listo». Sigue igual.
 - Los **correos para la clienta** son la única excepción: para que salgan, marca **✔ Enviar**. Si solo los archivas, vuelven con una nota.
 - No cambies el nombre de las columnas, porque el motor las busca por nombre.

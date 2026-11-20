@@ -38,6 +38,10 @@
 
 **Sin acuses vacíos.** El correo de cambio de dirección sale solo cuando Jie confirma, en un solo correo con el resultado. Jie confirma en unas 9 horas (mediana) y como máximo en 32. Si pasan 2 días y la clienta vuelve a escribir, se le da algo real.
 
+## Cobros
+
+**Karla reclama los cobros mal hechos** (Martin, 20-nov: «sí quiero que ella reclame la plata, si al final ya está decidido en el doc qué hay que hacer»). Le llegan a «🤝 Megafulfill» con el mensaje para Jie listo. Reclama solo lo acordado (los precios de `50-COBROS/LEEME.md` y el estuche y el cepillo a 0). Lo que está en negociación, los pagos, los saldos y las discusiones de precio siguen siendo de Martin.
+
 ## Stock
 
 **No se le sugieren pedidos ni pagos a Martin** (Martin, 18-nov). Encargar a la fábrica lo resuelve Jie, que cobra al despachar. Ni el Sheet ni Claude proponen cuánto pedir ni cuánto pagar. A Martin se le pasan datos, no «hay que pedir N». Los pagos son de Martin y solo como última opción. Ver `40-STOCK/LEEME.md`.

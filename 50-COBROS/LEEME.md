@@ -16,23 +16,25 @@ Jie (Megafulfill) nos cobra cada pedido que despacha en sus hojas de facturas. P
 - **Mona**: asistente de Jie, en el grupo Alegres Store desde el 17-nov. Maneja órdenes y cobros. Está por confirmarse si la facturación la ve Jie o Mona.
 - **Winnie**: jefa de Jie. Con ella habla solo Martin.
 
-## Lo que atiende Karla (operación, sin hablar de montos)
+## Lo que atiende Karla (incluido reclamar los cobros mal hechos, desde el 20-nov)
 | Si aparece… | Karla hace… |
 |---|---|
-| **Un producto cobrado sobre el precio acordado** (ver la tabla de abajo) | Lo ve en su lista «🤝 Megafulfill» de Notion con el pedido, el producto, lo cobrado y lo acordado. Hace el seguimiento: revisa si se repite y si Jie lo corrige en la hoja. **El reclamo de la plata lo manda Martin**: Karla junta los casos y se los deja listos. |
-| **Un pedido cobrado que no corresponde** (se reembolsó antes de salir, o el envío venció sin entrega) | Revisa el caso en servicio al cliente y lo deja listo con el pedido, la fecha y el estado. **No se lo reclama a Jie.** Se lo pasa a Martin por el buzón de propuestas. |
-| **Un reenvío cobrado como pedido nuevo** | Confirma en servicio al cliente que fue un reenvío y le avisa a Martin. |
+| **Un producto cobrado sobre el precio acordado** (ver la tabla de abajo) | Le llega a su lista «🤝 Megafulfill» con el pedido, el producto, lo cobrado, lo acordado y **el mensaje para Jie ya escrito en inglés**. **Karla lo reclama** (desde el 20-nov): lo manda en el grupo Alegres Store, pega la respuesta y al día siguiente revisa en la hoja si Jie lo corrigió. Si no, insiste. |
+| **Un pedido cobrado que no corresponde** (se reembolsó antes de salir, o el envío venció sin entrega) | Revisa el caso en servicio al cliente (que de verdad se reembolsó o nunca llegó) y lo reclama a Jie con el pedido, la fecha y el estado. |
+| **Un reenvío cobrado como pedido nuevo** | Confirma en servicio al cliente que fue un reenvío y lo reclama a Jie. |
 | **Jie abrió una pestaña nueva** en la hoja | Le avisa a Martin. |
-| **El estuche o el cepillo de AlbaMed aparecen cobrados** (desde el 17-nov van a 0, porque vienen dentro de la caja) | Le avisa a Martin. |
+| **El estuche o el cepillo de AlbaMed aparecen cobrados** (desde el 17-nov van a 0, porque vienen dentro de la caja) | Lo reclama a Jie: ya está acordado que van a 0. |
 | Cambios de dirección, reenvíos o el estado de un despacho | Se los pide a **Mona** en el grupo Alegres Store. Para eso la sumó Jie. |
 
 ## Lo que es solo de Martin
-- Reclamar plata: los precios mal cobrados (Karla los ve y los sigue, pero el reclamo lo manda Martin), los cobros dobles y cualquier monto. Martin manda los reclamos en tandas y decide cuándo.
+- Pagos (si se abonaron o no), saldos y deuda.
+- Los cobros sobre el tope de lo que **todavía está en negociación** (packs de 4, 6 y 7, otros países) y los cobros dobles: Martin los manda en tandas.
+- Si Jie discute un precio o pide negociar, lo ve Martin.
 - Pagos: si se abonaron o no, y los abonos prometidos.
 - Saldos y deuda.
 - Todo lo que se promete o se negocia con Jie o Winnie.
 
-**Regla:** con Jie y Mona, Karla habla de pedidos (direcciones, reenvíos, despachos), **nunca de plata**. Si Jie o Mona le hablan de cobros, Karla responde que lo ve Martin y le avisa a él.
+**Regla:** Karla reclama solo lo que ya está acordado: los precios de la tabla y el estuche y el cepillo a 0. Lo que esté en negociación, y cualquier discusión de precio, pagos o saldos, lo ve Martin. Tono de socio que pide ayuda: «Could you please correct them to the agreed prices? Thank you!».
 
 ## Precios acordados con Jie (México, USD por pedido)
 | Producto | 1 u | 2 u | 3 u | 5 u |

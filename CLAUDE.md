@@ -47,6 +47,7 @@ Se arma el sistema, no se atiende caso a caso. Por cada tipo de caso: 1 o 2 ejem
 | `20-CASOS/` | casos aprobados por Martin (el ejemplo manda sobre la teoría) |
 | `40-STOCK/` | **control de stock** de AlbaMed y VisionPure en la bodega de Jie: el Sheet, quién llena qué, cómo calcula, la rutina de Karla y el grupo de WeChat con Kevin. Leer `40-STOCK/LEEME.md` antes de hablar de stock |
 | `50-COBROS/` | lo que Karla ve de los **cobros de Jie** y lo que es solo de Martin |
+| `60-REDES/` | **motor de redes sociales, a cargo de Karla** (por construir): dónde partir, qué necesita y qué sigue siendo de Martin |
 | `EN-QUE-ESTAMOS.md` | los pendientes de hoy |
 | `CONEXIONES.md` | cómo habla con Jie, Karla, Martin, el control, Finanzas y Shopify |
 | `scripts/revisar_borrador.py` | el revisor automático de borradores |
