@@ -22,7 +22,8 @@ Claude lee solo las reglas de voz, los moldes, el mapa del sistema y la memoria.
 ## 4. Conectar las herramientas (con tu usuario)
 En claude.ai, entra a **Settings → Connectors** y conecta:
 - **Notion**, con tu cuenta. Es donde está tu lista «✅ Tareas de Karla».
-- **Supabase**, con el correo de la tienda: **contacto@alegrestiendamexico.com**. La invitación llega a esa bandeja; acéptala, crea la cuenta de Supabase con ese correo y después conéctalo en Claude.
+- **Supabase**: Martin te invita a tu correo (karlabritomontero@gmail.com). Acepta la invitación y después conéctalo en Claude.
+- **Gmail, con el correo de la tienda (contacto@alegrestiendamexico.com)**, para que tu Claude lea los correos de las clientas directo, con sus adjuntos. Ojo: tu Claude **nunca manda correos desde ahí**. Todo lo que sale a una clienta pasa por la cola del motor, el revisor y tu «✔ Enviar».
 - **Google Drive**, con la cuenta de Google con la que ves el Sheet «Alegres Mexico». Es para que Claude lea y anote el stock.
 
 La primera vez que Claude intente leer el WhatsApp, tu Mac puede pedir permiso de «Acceso total al disco». Dáselo a Claude, porque sin eso no ve el grupo.

@@ -71,6 +71,7 @@ Se arma el sistema, no se atiende caso a caso. Por cada tipo de caso: 1 o 2 ejem
 - **Notion de Karla:** «✅ Tareas de Karla», `collection://41ce3bfc-6a93-81f6-8c34-000bc2681b69`. Lo llenan K3 (cada hora), K2 (sus marcas) y K1 («✔ Enviar» → cola). Detalle en `SISTEMA.md`. **No cambiar el nombre de las columnas** («✔ Enviar», «Archivar», «Ref motor», «Estado», «Prueba», «Texto para la clienta»), porque los flujos las buscan por nombre. Tampoco se tocan las vistas.
 
 ## Reglas duras
+- **El correo de la tienda (contacto@alegrestiendamexico.com) se puede leer** por el conector de Gmail (Karla lo tiene conectado), **pero nunca se envía, responde ni borra nada desde ahí.** Todo lo que sale a una clienta va por `sac_respuestas` → revisor → «✔ Enviar» → WF-R2.
 - Nada sale hacia afuera (clienta, Jie, Karla) sin OK. Desde el 18-nov, los correos de moldes aprobados los aprueba Karla con «✔ Enviar» en su Notion; los moldes nuevos, la plata, la salud y lo legal siguen siendo de Martin. Nada de reembolsos ni de mover plata.
 - Todo lo que se le muestra a Martin o a Karla trae una acción concreta. Lo que solo es esperar lo monitorea el motor.
 - A Martin se le habla en español chileno simple, sin códigos ni inglés. Los mensajes van a Slack, listos para copiar, nunca en Excel.
