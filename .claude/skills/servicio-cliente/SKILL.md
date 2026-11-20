@@ -1,6 +1,6 @@
 ---
 name: servicio-cliente
-description: Motor de Servicio al Cliente de Alegres México (voz Mariana). Úsala SIEMPRE antes de escribir, revisar o aprobar cualquier texto que vaya a leer una clienta (correos de SAC, respuestas, avisos de envío), y cuando Martin o Karla pidan "servicio al cliente", "SAC", "responder correos", "la cola del correo", "casos de clientas", "cambio de dirección", "reenvío", "reembolso de una clienta" o "mensaje para Jie".
+description: Motor de Servicio al Cliente de Alegres México (voz Mariana). Úsala SIEMPRE antes de escribir, revisar o aprobar cualquier texto que vaya a leer una clienta (correos de SAC, respuestas, avisos de envío), y cuando Martin o Karla pidan "servicio al cliente", "SAC", "responder correos", "la cola del correo", "casos de clientas", "cambio de dirección", "reenvío", "reembolso de una clienta", "mensaje para Jie", o pregunten por el stock de AlbaMed o VisionPure, Kevin, el WeChat, si Jie está despachando o cuánto pedir (en ese caso, leer `40-STOCK/LEEME.md`).
 ---
 
 # Motor de Servicio al Cliente

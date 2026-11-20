@@ -24,6 +24,7 @@ En claude.ai, entra a **Settings → Connectors** y conecta:
 - **Notion**, con tu cuenta. Es donde está tu lista «✅ Tareas de Karla».
 - **Supabase**. Martin te invita a la organización con tu correo; acepta la invitación y después conéctalo.
 - **n8n**. Martin te crea un usuario en el n8n de la tienda y te dice cómo conectarlo.
+- **Google Drive**, con la cuenta de Google con la que ves el Sheet «Alegres Mexico». Es para que Claude lea y anote el stock.
 
 La primera vez que Claude intente leer el WhatsApp, tu Mac puede pedir permiso de «Acceso total al disco». Dáselo a Claude, porque sin eso no ve el grupo.
 
@@ -32,6 +33,8 @@ La primera vez que Claude intente leer el WhatsApp, tu Mac puede pedir permiso d
 - «Esta clienta preguntó X y no hay respuesta aprobada. Arma una propuesta para Martin.»
 - «Corrige este texto: en vez de decir X, que diga Y.» Si es dentro de un molde aprobado, queda al tiro.
 - «¿Qué tengo pendiente hoy?» o «¿Qué le falta responder a Jie?»
+- «¿Cómo está el stock de AlbaMed?» o «¿Jie está despachando?»
+- «Kevin dijo esto en WeChat: [pegas el texto o el pantallazo]. Anótalo en el Sheet.»
 
 **Lo que decide Martin** (Claude te lo deja como propuesta y le avisa): moldes nuevos, plata y reembolsos, salud y legal.
 

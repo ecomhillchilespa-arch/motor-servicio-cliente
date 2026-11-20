@@ -12,6 +12,12 @@
 - **#4562, #11621 y #3073**: Karla los archivó sin mandarlos a Jie y parecen casos viejos ya resueltos. ¿Se cierran?
 - **Redes sociales**: la propuesta espera 8 decisiones (`30-PROPUESTAS/2026-11-18-redes/00-LEEME.md`).
 
+## Stock (ver `40-STOCK/LEEME.md`)
+- **Hoy, 20-nov, vencía la promesa de Jie** de despachar todo el atraso de AlbaMed (el lote de 1.400). Según los datos, desde el 15-nov casi no ha salido nada. Hay que confirmar con Jie.
+- Los lotes de 600 y de 1.500 (bolsa QuietLab) estaban **sin fecha** de llegada. Mientras no tengan fecha, el Sheet no los cuenta.
+- Las 5.000 bolsas y los 5.000 manuales llegaban del 26 al 28-nov.
+- Pendientes: extender la vista STOCK más allá del 31-dic, definir con Martin los avisos a Slack y proponer la estructura del «motor de stock» a cargo de Karla.
+
 ## Por hacer (motor)
 - **Moldes nuevos** que pidió Martin, para mostrárselos con casos reales:
   - pedido fuera de México (#12505 Uruguay y #13338 Colombia esperan este molde);

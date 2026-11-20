@@ -32,6 +32,8 @@ Se arma el sistema, no se atiende caso a caso. Por cada tipo de caso: 1 o 2 ejem
 | `00-REGLAS/` | voz (las 12 reglas con ejemplos) y criterio de soluciones |
 | `10-FLUJOS/` | qué hacer en cada tipo de caso, paso a paso |
 | `20-CASOS/` | casos aprobados por Martin (el ejemplo manda sobre la teoría) |
+| `40-STOCK/` | **control de stock** de AlbaMed y VisionPure en la bodega de Jie: el Sheet, quién llena qué, cómo calcula, la rutina de Karla y el grupo de WeChat con Kevin. Leer `40-STOCK/LEEME.md` antes de hablar de stock |
+| `EN-QUE-ESTAMOS.md` | los pendientes de hoy |
 | `CONEXIONES.md` | cómo habla con Jie, Karla, Martin, el control, Finanzas y Shopify |
 | `scripts/revisar_borrador.py` | el revisor automático de borradores |
 | `SISTEMA.md` | **el mapa del sistema en n8n/Supabase**: cada pieza, su confianza y dónde va cada cosa que se aprende |
