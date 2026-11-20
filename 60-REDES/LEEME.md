@@ -16,7 +16,7 @@ Martin (20-nov): «pásale el motor de redes así ella lo puede empezar a trabaj
 4. **Proponer el orden de construcción** (decisión 7). El primer paso propuesto es solo lectura: traer los comentarios de los anuncios a una lista de Notion para Karla, sin responder nada.
 
 ## Lo que necesita Karla
-- **Acceso a Meta Business Suite** (lo da Martin) para las páginas que tienen los anuncios: «Revista Alquimia» y «Oftalmólogo - Dr Arturo Sánchez», en la cuenta de JP2. Con eso ve y responde comentarios y mensajes a mano mientras no exista el motor.
+- **Acceso a Meta Business Suite** ✅ (desde el 20-nov) para las páginas que tienen los anuncios: «Revista Alquimia» y «Oftalmólogo - Dr Arturo Sánchez», en la cuenta de JP2. Con eso ve y responde comentarios y mensajes a mano mientras no exista el motor.
 - **n8n:** Karla no tiene acceso. Lo que haya que construir (ingreso de comentarios, filtros, avisos) se lo propone a Martin por el **buzón** (issue `para-martin`) con el diseño exacto, y lo arma la sesión de Martin.
 
 ## Lo que sigue decidiendo Martin
