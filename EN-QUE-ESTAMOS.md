@@ -6,6 +6,8 @@
 - **5 correos de cambio de dirección** listos en su Notion para «✔ Enviar»: #13371, #13370, #13340, #12788 y #12051. El #13371 es el más urgente, porque preguntó dónde ver su guía.
 
 ## Esperando a Martin (decisiones)
+- **4 clientas esperando desde el 18-nov** (#10361, #11233, #13117 y #9896): la propuesta con los textos está en el Mac de Martin (no se sube porque lleva datos de clientas). Hay que decir sí o no.
+- **Roca R2:** el reporte semanal de Karla parte el viernes 27-nov. Falta que Martin le mande el mensaje una vez.
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.
 - **Molde B (rescate J&T)**: lo aprueba Martin.
 - **#4562, #11621 y #3073**: Karla los archivó sin mandarlos a Jie y parecen casos viejos ya resueltos. ¿Se cierran?

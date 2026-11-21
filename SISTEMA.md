@@ -154,6 +154,19 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
   - Lee el Sheet (registro y encargos) y `ops_alegres_stock_por_dia`.
   - Arma un semáforo y el mensaje para Jie. Nunca sugiere pedidos ni pagos.
 
+## Roca R2: reporte semanal de Karla (20-nov, Martin: «r2 perfecta»)
+- **Flujo** `cbTU6E1AG6yj5wOD`, con dos partes:
+  - **viernes 09:00** crea en «🤝 Megafulfill» la fila «📊 Reporte semanal · <semana>» (Tipo «Reporte semanal», Ref `rs:<viernes>`, sin duplicar). En «Qué pasa» van los números de `ops_alegres_reporte_semanal(viernes)` (semana del viernes anterior al jueves) más los cobros mal hechos de la misma lista;
+  - **viernes 18:05** revisa si Karla llenó «Qué pasó», «Qué está trabado» y «Qué necesito de Martin» y marcó el visto. Lo guarda en `ops_alegres_kpi_reporte` con `ops_alegres_kpi_guardar_reporte`.
+- **Los números:**
+  - stock: días sin conteo y AlbaMed de hace 6 días o más sin despachar;
+  - cobros: nuevos, reclamados y abiertos;
+  - reclamos cada 100 pedidos: pedidos con un correo de reclamo creado en la semana (motivos de queja) ÷ pedidos de la semana;
+  - respuesta: % de correos de clientas respondidos en menos de 24 h y la mediana;
+  - gestiones con Jie colgando.
+- **Scorecard:** `ops_alegres_kpi_karla()` trae la historia y `scripts/kpi_karla_scorecard.py` escribe `reporte_karla` = «✅ N/8», «❌ 0/8 (falta …)» o «⏳ pendiente», desde el viernes 27-nov.
+- Las 3 columnas nuevas las buscan los flujos por nombre: no se renombran. La fila de prueba del 20-nov quedó archivada con Ref `prueba:rs:2026-11-20`.
+
 ## Stock: lo que anota Karla en Notion → Sheet (20-nov)
 - **M2** `4QIxYGwOpRnOnNC6`, cada 30 minutos (:05 y :35). Lee las filas de «🤝 Megafulfill» con «En el Sheet» sin marcar y algún número en «Jie: en bodega», «Jie: le faltan», «Llegaron: cantidad» o «Llegan: cantidad».
 - Escribe en «STOCK registro» (conteo) y «STOCK encargos» (llegó: columnas E y F; llega: columna D; o una fila nueva). Llama a `ops_alegres_kpi_guardar_conteo` y marca «En el Sheet». Reglas en `40-STOCK/LEEME.md`.

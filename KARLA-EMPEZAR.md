@@ -56,7 +56,8 @@ Para que tu Claude pueda escribir en el buzón, la primera vez dile: «instala l
 - **«🤝 Megafulfill»** (nueva):
   - **cobros mal hechos:** los revisas y juntas los casos, pero el reclamo de la plata lo manda Martin;
   - **seguimiento de AlbaMed:** cada mañana a las 9:00, con semáforo y el mensaje para Jie listo para copiar. Cuando Jie o Kevin respondan, anota en esa misma fila el conteo («Jie: en bodega» o «Jie: le faltan»), lo que llegó («Llegaron: cantidad» y fecha) o lo que confirmaron que llega («Llegan: cantidad» y fecha). El motor lo pasa solo al Sheet;
-  - **pendientes con Jie.**
+  - **pendientes con Jie;**
+  - **📊 Reporte semanal** (desde el viernes 27-nov): cada viernes a las 9:00 aparece una fila con los números de la semana, que arma el motor. Tú escribes una línea en «Qué pasó», otra en «Qué está trabado» y otra en «Qué necesito de Martin», y marcas el visto antes de las 18:00.
 
 ## 8. Redes sociales (ahora tuyas)
 El motor de redes todavía no existe: hay un diagnóstico y una propuesta. Lo armas tú con tu Claude, partiendo por `60-REDES/LEEME.md`. Para ver y responder comentarios mientras tanto, Martin te da acceso a Meta Business Suite.
