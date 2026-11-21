@@ -3,10 +3,10 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **4 clientas esperando desde el 18-nov, ahora las decide Karla** (Martin, 20-nov: «ella ahora está a cargo de ese motor»). Están en su lista con contexto y propuesta: #10361 (reembolso, ya aprobado por Martin el 18-nov), #13117 (primero Jie, después reembolso), #9896 (completar reposición) y #11233 (reembolso, pero **lo consulta con Martin** por salud y riesgo legal). Los correos de reembolso salen solos cuando la devolución aparece en Shopify.
 - **5 correos de cambio de dirección** listos en su Notion para «✔ Enviar»: #13371, #13370, #13340, #12788 y #12051. El #13371 es el más urgente, porque preguntó dónde ver su guía.
 
 ## Esperando a Martin (decisiones)
-- **4 clientas esperando desde el 18-nov** (#10361, #11233, #13117 y #9896): la propuesta con los textos está en el Mac de Martin (no se sube porque lleva datos de clientas). Hay que decir sí o no.
 - **Roca R2:** el reporte semanal de Karla parte el viernes 27-nov. Falta que Martin le mande el mensaje una vez.
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.
 - **Molde B (rescate J&T)**: lo aprueba Martin.
