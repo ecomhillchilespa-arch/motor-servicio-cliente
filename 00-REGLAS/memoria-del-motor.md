@@ -32,6 +32,8 @@
 
 **Karla trabaja en Notion, no en Slack** (Martin, 20-nov: «quiero que use harto el Notion»). Todo lo suyo llega a una de sus dos listas: «✅ Tareas de Karla» (clientas) o «🤝 Megafulfill» (cobros mal hechos, stock de AlbaMed y pendientes con Jie).
 
+**Lo que es para Karla se lo manda el motor, por Notion o por correo** (Martin, 20-nov, en la reunión semanal con la sesión CEO: «¿por qué no se lo manda el mismo motor?… mandemos a Karla las cosas por correo o por Notion también, en caso que sea tarea. Esos son los canales de comunicación con ella»). Si es tarea, va como fila en su Notion (casi siempre en «🤝 Megafulfill» o «✅ Tareas de Karla»), con la explicación completa. Martin no hace de mensajero. El correo a Karla nunca sale desde contacto@ (ese se usa solo para leer).
+
 ## Textos para clientas
 
 **La fecha de llegada se esconde salvo que pregunten** (Martin, 20-nov: «nuestros tiempos de envío son malos y siempre trato de ocultarlos»). Se da el enlace de rastreo. La fecha solo va si la clienta pregunta cuándo llega o si llega en menos de 7 días. Está en la regla 10 de `voz.md`.
