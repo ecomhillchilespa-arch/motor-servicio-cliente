@@ -20,6 +20,12 @@
 
 **Antes de decir «nunca se hizo», revisar el WhatsApp** (Martin, 18-nov). Karla gestiona mucho a mano con Jie. De 13 pedidos que se daban como «nunca pedidos», Karla ya había pedido 8. Se busca el número de pedido en el grupo Alegres Store, en solo lectura, antes de cargar un reenvío o pedir algo de nuevo.
 
+**Qué se le sube a Martin (desde el 20-nov)** (Martin: «no quiero que los motores me tiren cosas tan mínimas… quiero ver cosas importantes, como crear sistemas»).
+- Solo le llega: sistemas (moldes nuevos incluidos), estrategia, plata (más de ~US$200 o reembolsos fuera de `soluciones.md`), riesgo (legal, salud, seguridad, proveedor), personas, y lo que bloquea una roca.
+- Lo demás lo decide Karla, que está a cargo de este motor, o el motor aplicando su propia recomendación.
+- Si hay duda, se le pregunta a la sesión 🧠 CEO de Martin, no a Martin.
+- El criterio completo está en el Mac de Martin: `~/log-diario/CRITERIO-ESCALAR.md`.
+
 ## Karla y su Notion
 
 **Karla aprueba los correos** (desde el 18-nov). Martin salió del día a día. Los correos de moldes ya aprobados los prepara el motor en «✅ Tareas de Karla» con el texto listo, y Karla marca «✔ Enviar». A Martin solo le llegan las decisiones: moldes nuevos, plata, salud y legal.
