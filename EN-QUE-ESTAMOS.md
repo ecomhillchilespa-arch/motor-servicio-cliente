@@ -7,6 +7,7 @@
 - **5 correos de cambio de dirección** listos en su Notion para «✔ Enviar»: #13371, #13370, #13340, #12788 y #12051. El #13371 es el más urgente, porque preguntó dónde ver su guía.
 
 ## Esperando a Martin (decisiones)
+- **Hacer miembro a Karla en el Notion de ecomhill** (issue #1, 23-nov). Hoy está como invitada y Notion no deja que su Claude se conecte, así que no ve «✅ Tareas de Karla» ni «🤝 Megafulfill».
 - **Roca R2:** el reporte semanal de Karla parte el viernes 27-nov. Falta que Martin le mande el mensaje una vez.
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.
 - **Molde B (rescate J&T)**: lo aprueba Martin.
