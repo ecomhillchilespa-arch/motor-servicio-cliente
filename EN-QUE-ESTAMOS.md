@@ -4,7 +4,8 @@
 
 ## Esperando a Karla
 - **4 clientas esperando desde el 18-nov, ahora las decide Karla** (Martin, 20-nov: «ella ahora está a cargo de ese motor»). Están en su lista con contexto y propuesta: #10361 (reembolso, ya aprobado por Martin el 18-nov), #13117 (primero Jie, después reembolso), #9896 (completar reposición) y #11233 (reembolso, pero **lo consulta con Martin** por salud y riesgo legal). Los correos de reembolso salen solos cuando la devolución aparece en Shopify.
-- **5 correos de cambio de dirección** listos en su Notion para «✔ Enviar»: #13371, #13370, #13340, #12788 y #12051. El #13371 es el más urgente, porque preguntó dónde ver su guía.
+- **3 correos de cambio de dirección** corregidos el 23-nov y listos para «✔ Enviar»: #12051, #12788 y #13340. #13371 y #13370 ya se habían mandado el 20-nov desde el correo de la tienda: quedaron cerrados.
+- **Ojo con los textos que se arman solos:** el 23-nov 3 de 5 venían mal. #12051 decía «ya está en México» cuando estaba en el aeropuerto de salida, porque la etapa `transito_nacional` se marca antes de que el paquete salga de China. En #12788 y #13340, Jie cambió la guía después de que se armó el texto. Hay que revisar si conviene proponerle a Martin un arreglo de raíz.
 
 ## Esperando a Martin (decisiones)
 - **Un permiso para Karla** (issue #1, 23-nov): **editora en el Sheet «Alegres Mexico».** Hoy solo puede verlo, así que su Claude no anota el stock. (Lo de ser miembro en el Notion de ecomhill quedó listo el 23-nov: su Claude ya lee sus dos listas.)
