@@ -58,6 +58,16 @@
 
 ## Errores que ya pasaron (para no repetirlos)
 
+- **23-nov (Karla con Claude):** de 19 correos que estaban listos en la lista de Karla, 14 venían mal. Las fallas fueron:
+  - la plantilla «¿dónde está mi pedido?» no traía disculpa, aunque se respondía 3 a 18 días tarde (regla 5);
+  - daba fecha a quien no preguntó cuándo llega (regla 10);
+  - un texto decía «ya está en México» con el paquete en el aeropuerto de China (`transito_nacional` se marca antes del vuelo);
+  - las guías habían cambiado después de armar el texto;
+  - 2 correos ya se habían mandado a mano;
+  - en #13405 la clienta mandó su dirección y nunca se le pasó a Jie.
+
+  **Antes de marcar «✔ Enviar», se revisa el hilo completo y el rastreo de hoy.**
+
 - **19-nov:** la columna «✔ Enviar» quedó sin nombre al agregar columnas en Notion y el envío falló un día entero. Si un flujo dice «Could not find property», lo primero es revisar los nombres de las columnas.
 - **19-nov:** la lista de Karla no tenía de dónde sacar correos, porque el filtro pedía «sale solo» y esos ya salían solos. Antes de dar por hecho que un flujo funciona, hay que contar cuántas cosas pasaron de verdad por él.
 - **17-nov:** a un pedido se le escribió «Hola Alma» con el nombre del ejemplo del molde. El nombre siempre sale del pedido o de la firma de la clienta, nunca del ejemplo.
