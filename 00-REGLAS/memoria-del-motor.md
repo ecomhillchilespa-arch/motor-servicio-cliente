@@ -68,6 +68,7 @@
 
   **Antes de marcar «✔ Enviar», se revisa el hilo completo y el rastreo de hoy.**
 
+- **24-nov (Karla con Claude):** se dio por hecho el cambio de #13643 porque Jie mandó una guía nueva, pero en el Sheet había marcado «No» (la dirección de envío y la de facturación no coincidían). **Una guía nueva no prueba que Jie hizo el cambio: la prueba es su «Done» en el Sheet o su respuesta con el número de pedido.** Antes de marcar ✅, mirar el Sheet de Jie.
 - **19-nov:** la columna «✔ Enviar» quedó sin nombre al agregar columnas en Notion y el envío falló un día entero. Si un flujo dice «Could not find property», lo primero es revisar los nombres de las columnas.
 - **19-nov:** la lista de Karla no tenía de dónde sacar correos, porque el filtro pedía «sale solo» y esos ya salían solos. Antes de dar por hecho que un flujo funciona, hay que contar cuántas cosas pasaron de verdad por él.
 - **17-nov:** a un pedido se le escribió «Hola Alma» con el nombre del ejemplo del molde. El nombre siempre sale del pedido o de la firma de la clienta, nunca del ejemplo.
