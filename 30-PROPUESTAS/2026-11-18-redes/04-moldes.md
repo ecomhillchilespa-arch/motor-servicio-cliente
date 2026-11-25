@@ -222,11 +222,19 @@ Karla, 25-nov: se nombra **solo lo que preguntó**, no la lista completa. Lo que
 - de la página: apnea del sueño, trastornos respiratorios severos, enfermedad periodontal avanzada, trastorno temporomandibular.
 
 **Bruxismo (R07b, Karla 25-nov).** No está en ninguna de las dos listas. Sale de lo que Karla responde hoy («no es una férula odontológica personalizada para bruxismo… no es un producto pensado para esa condición»):
+Versión de Karla (la que ella prefiere, porque a algunas personas les ayuda):
+```
+Hola {nombre}, muchas gracias por preguntar 😊 AlbaMed está pensada para el ronquido, con su diseño ajustable y flexible, y no es una férula odontológica personalizada para el bruxismo. Si aprietas o rechinas los dientes al dormir, puedes probar sus distintas posiciones para ver cuál te resulta más cómoda, pero no es un producto pensado para esa condición.
+Mariana
+```
+Se mantiene su sugerencia de probar las posiciones. Solo se cambió «esta te puede ayudar» por «para ver cuál te resulta más cómoda», para no prometer un resultado en algo que el producto no trata (R6).
+
+Alternativa más cerrada, por si Martin prefiere no sugerir el uso:
 ```
 Hola {nombre}, muchas gracias por preguntar antes de comprar. AlbaMed es una férula antirronquidos ajustable, pero no es una férula para el bruxismo. Si lo que buscas es dejar de apretar o rechinar los dientes al dormir, preferimos decirte que no está pensada para eso.
 Mariana
 ```
-Se sacó de la respuesta de Karla «te recomendamos probar las distintas posiciones, esta te puede ayudar»: le promete un resultado para algo que el producto no trata (R6), y abre una devolución. 🚩 Es salud: la decide Martin.
+🚩 Es salud: Martin elige entre las dos.
 
 Excepciones y cuidados:
 - Solo se usa cuando lo que pregunta está en la lista de la guía. Si no está, pasa a Karla sin texto.
