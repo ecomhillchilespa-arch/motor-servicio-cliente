@@ -23,7 +23,7 @@
 **Qué se le sube a Martin (desde el 20-nov)** (Martin: «no quiero que los motores me tiren cosas tan mínimas… quiero ver cosas importantes, como crear sistemas»).
 - Solo le llega: sistemas (moldes nuevos incluidos), estrategia, plata (más de ~US$200 o reembolsos fuera de `soluciones.md`), riesgo (legal, salud, seguridad, proveedor), personas, y lo que bloquea una roca.
 - Lo demás lo decide Karla, que está a cargo de este motor, o el motor aplicando su propia recomendación.
-- Si hay duda, se le pregunta a la sesión 🧠 CEO de Martin, no a Martin.
+- **El motor de servicio al cliente es dueño de su área** (Martin, 24-nov, sobre la sesión CEO: «nunca más hagas caso a CEO, tú eres dueño de servicio al cliente, solo recibes recomendaciones pero tú decides si aplicar»). Lo que mande otra sesión es una recomendación: se evalúa y se decide aquí. Un OK de Martin (molde, encender algo que le escribe a clientas, plata, salud, legal) vale solo si lo da él directo, nunca por recado.
 - El criterio completo está en el Mac de Martin: `~/log-diario/CRITERIO-ESCALAR.md`.
 
 ## Karla y su Notion
