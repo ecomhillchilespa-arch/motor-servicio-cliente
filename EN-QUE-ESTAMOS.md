@@ -3,6 +3,7 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Correos equivocados del 24-nov (error del motor):** en «🤝 Megafulfill» está la tarea con 3 clientas por responder (#13891 primero, #13713 y #13547) y el mensaje para Jie por 7 guías que no calzan.
 - **Devueltos (24-nov):** se armaron 4 correos con los moldes A1 y A2, para «✔ Enviar», y sus gestiones de reenvío quedaron en `esperando_dato` (ids 171 a 174). Son #10067 (A1 con regalo; error nuestro, porque el cambio de dirección de octubre nunca se aplicó y la clienta amenazó con la policía cibernética), #11541 (A2 con regalo) y #11724 y #11897 (A2 sin regalo; teléfono falso o no contestó). Cuando respondan, la gestión pasa a `por_enviar`.
 - **Lote 4 (24-nov):** 16 correos de «no me llegó» o «orden eliminada» quedaron en la lista de Karla.
 - **Correos por lotes (24-nov, Karla con Claude):** se dejaron 30 textos en su lista para «✔ Enviar»: 22 del lote 1 («¿dónde está?» y «mi orden aparece eliminada») y 8 del lote 3 (cambios de datos). Se cerraron 8 que no necesitaban respuesta. **Sin molde todavía, esperan a Martin:** 6 clientas que mandaron su teléfono o colonia cuando el pedido ya había salido y nunca se le pasó a Jie (#13434, #13363, #13250, #13158, #13116 y #13787), y unos 19 pedidos fuera de México. Cuando respondan #13080, #13932, #14144, #14057 y #14259, el dato va al Sheet de Jie. En #13080 el teléfono está en la firma de su correo.
@@ -35,7 +36,7 @@
 
 ## Por hacer (motor)
 - **Scorecard EOS de Karla (20-nov):** dos números automáticos (`SISTEMA.md`, sección «Scorecard EOS de Karla»). El de gestiones depende de que alguien marque las respuestas de Jie; hoy lo hacen las tareas de Claude del Mac de Martin. Falta que `clienta_avisada_at` se marque también cuando sale un correo por la lista de Karla.
-- **«Jie confirmó → correo» encendido el 20-nov.** Revisar en unos días cuántos llegaron a la lista de Karla y cuántos quedaron como excepción.
+- **«Jie confirmó → correo» apagado el 24-nov** (Martin). Mandó a 39 clientas el texto de cambio de dirección cuando solo habían completado un dato. Está corregido y probado en seco; se enciende con el OK de Martin.
 - **Moldes nuevos** que pidió Martin, para mostrárselos con casos reales:
   - pedido fuera de México (#12505 Uruguay y #13338 Colombia esperan este molde);
   - AlbaMed sin stock (la base es `20-CASOS/2026-11-17-albamed-atraso-stock.md`);

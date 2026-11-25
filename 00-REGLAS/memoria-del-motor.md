@@ -58,6 +58,9 @@
 
 ## Errores que ya pasaron (para no repetirlos)
 
+- **24-nov (del motor):** 40 clientas recibieron «pedimos que cambiara de dirección» y 39 solo habían completado un dato. La gestión se llama `cambio_direccion` en los dos casos, y el flujo se encendió sin mostrarle a Martin ejemplos reales. El nombre de una gestión no dice qué pidió la clienta: antes de encender se corre en seco, se leen los casos uno por uno y se muestran ejemplos, aunque el pedido venga de otra sesión.
+- **24-nov:** en 7 de esos correos la guía nueva de Jie no era la que se estaba moviendo. Antes de mandar un enlace se revisa que esa guía tenga movimientos.
+
 - **23-nov (Karla con Claude):** de 19 correos que estaban listos en la lista de Karla, 14 venían mal. Las fallas fueron:
   - la plantilla «¿dónde está mi pedido?» no traía disculpa, aunque se respondía 3 a 18 días tarde (regla 5);
   - daba fecha a quien no preguntó cuándo llega (regla 10);

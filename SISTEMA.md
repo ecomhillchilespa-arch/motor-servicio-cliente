@@ -127,7 +127,9 @@ Causa: el redactor procesaba correos viejos de personas que ya tenían una conve
   - Toma los cambios de dirección de México con `jie_hecho` en los últimos 10 días y sin correo después.
   - Arma el molde aprobado con 3 variantes: confirmación, confirmación con disculpa si esperó más de 3 días, o solo la buena noticia si ya le dijimos que lo retuvimos.
   - Usa la guía nueva de Jie o, si no viene, la del rastreo. Va sin fecha (regla 10) y pasa el revisor.
-  - **Interruptor:** `ops_alegres_config.confirmaciones_karla_activo`, **encendido el 20-nov** por orden de Martin (vía la sesión CEO). Con `p_aplicar = false` es una prueba en seco que devuelve lo que saldría. Al encenderlo no había casos pendientes: arma solo los nuevos. No cubre los reenvíos (eso es el molde «tu reenvío ya salió», que sigue esperando a Martin).
+  - **Interruptor:** `ops_alegres_config.confirmaciones_karla_activo`. Encendido el 20-nov y **apagado el 24-nov por Martin**. Solo se vuelve a encender con su OK y ejemplos reales. Con `p_aplicar = false` es una prueba en seco.
+  - **Arreglo del 24-nov:** `ops_alegres_clase_cambio(id de la gestión)` separa `cambio` (pidió cambiar o corregir su dirección), `dato` (completó un dato que pedimos con el molde A) y `duda`. Solo `cambio` arma el correo. Prueba: de los 40 correos del 24-nov, 39 son `dato` y 1 `cambio`; los 8 cambios reales aprobados dan `cambio`. De las 115 gestiones `cambio_direccion`: 19 cambio, 90 dato, 6 duda.
+  - Tampoco se arma si la clienta volvió a escribir después del pedido, si la guía no tiene movimientos en nuestro rastreo o si la que se mueve es otra.
   - Resguardo (20-nov): si el último correo de la clienta ya tiene otra respuesta en el motor, queda como excepción (antes rompía la restricción única de `mensaje_id` y botaba el nodo de K3).
   - Excepciones (no arma nada): fuera de México, sin nombre claro, sin guía, o la clienta no escribió por correo.
 - **K1 (20-nov):** ahora toma «✔ Enviar» aunque la fila esté archivada. **K3 (20-nov):** si Karla archiva un correo sin «✔ Enviar», vuelve con una nota; si escribió algo en «Nota Karla», se respeta el archivo.
