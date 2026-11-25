@@ -309,8 +309,20 @@ Mariana
 Excepciones y cuidados:
 - No dice qué cura ni qué resultado da (R6). Si además pregunta por una condición de salud, va el R06 o el R07.
 
-## R12 · AlbaMed, «¿cuánto dura la férula?» (pendiente, Karla 25-nov)
-Karla dice que se pregunta seguido. **Todavía no tiene texto**: ni la página ni «Voz de marca» dicen cuánto dura una férula antes de cambiarla, y no se inventa. Hay que confirmarlo con Jie (lo que diga la fábrica) o con Martin, y ahí se escribe.
+## R12 · AlbaMed, «¿cuánto dura la férula?» (Karla 25-nov)
+**Camino A** · Karla dice que se pregunta seguido. Sale de cómo lo responde ella hoy, sin dar un plazo que no tenemos: depende del uso y del cuidado, y se cambia cuando se note desgaste.
+
+Comentario:
+```
+Hola {nombre}, qué bueno que te interesa AlbaMed 😊 Cuánto dura depende del uso y del cuidado de cada persona. Es de material flexible y se lava fácil, así que te recomendamos revisarla de vez en cuando y cambiarla cuando notes desgaste. En este enlace ves el precio y todos los detalles.
+https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
+Mariana
+```
+
+Lo que cambió respecto de la respuesta de Karla:
+- Se sacó «grado médico»: es un aval sin documento a mano (R7) y el revisor lo frena.
+- Se sacó «hoy tenemos promo»: las promociones se ven en el enlace (igual que el precio, R01).
+- Saludo «Hola {nombre},» y firma de Mariana, como en las demás.
 
 ## Lo que todavía no tiene molde
 | Escenario | Por qué | Qué falta |
