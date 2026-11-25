@@ -80,7 +80,7 @@ Casos reales:
 - «A mi no me a llegado desde septiembre 8868 mi pedido»
 
 **Corregido por Karla el 25-nov**, con lo que hace hoy a mano:
-- Si el pedido lleva **menos de 5 días** en tránsito, le da el tiempo de entrega en público (R04b).
+- Si el pedido lleva **menos de 5 días** en tránsito, le da tranquilidad en público sin comprometer un plazo (R04b). Karla, 25-nov: «mejor decir que está en tránsito y darle seguridad al cliente sin comprometer el tiempo». Va en línea con la regla 10 de voz (la fecha se esconde salvo que haga falta), y el plazo de la tienda y el del correo no se contradicen en público.
 - Si lleva **más de 5 días**, le escribe por privado, le dice dónde va el pedido y le manda el enlace de rastreo (R04, R04c).
 - **Pide el correo, no el número de pedido**, porque la gente casi siempre le da el número de guía.
 - Si hay problemas en la entrega, le da por privado el contacto de la paquetería de última milla (R04d, que es el texto del molde B del correo).
@@ -97,7 +97,7 @@ Mariana
 
 Comentario público, recién compró, menos de 5 días (R04b):
 ```
-Hola {nombre}, muchas gracias por tu compra 🙏 Tu pedido va en camino y te estaría llegando a más tardar en 18 días desde tu compra. Te escribí por mensaje privado con el enlace para que veas cada avance.
+Hola {nombre}, muchas gracias por tu compra 🙏 No te preocupes, que tu pedido ya va en camino y todo va muy bien. Te escribí por mensaje privado con el enlace para que veas cada avance hasta que llegue a tus manos.
 Mariana
 ```
 
