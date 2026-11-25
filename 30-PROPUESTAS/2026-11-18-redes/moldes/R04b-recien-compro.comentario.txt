@@ -1,2 +1,2 @@
-Hola {nombre}, muchas gracias por tu compra 🙏 No te preocupes, que tu pedido ya va en camino y todo va muy bien. Te escribí por mensaje privado con el enlace para que veas cada avance hasta que llegue a tus manos.
+Hola {nombre}, muchas gracias por tu compra, qué gusto tenerte con nosotros 🙏 No te preocupes, que tu pedido ya va en camino y todo va muy bien. Te escribí por mensaje privado con el enlace para que veas cada avance hasta que llegue a tus manos.
 Mariana

@@ -1,3 +1,3 @@
-Hola {nombre}, con mucho gusto te cuento. Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para ir viendo cada avance. En este enlace ves todos los detalles.
+Hola {nombre}, con muchísimo gusto te cuento 😊 Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
 {enlace del producto}
 Mariana

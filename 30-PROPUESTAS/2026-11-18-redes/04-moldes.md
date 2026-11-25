@@ -1,5 +1,7 @@
 # 04 · Moldes de redes · BORRADOR, nada de esto se ha enviado
 
+> **25-nov:** Karla pidió un **tono más cálido** en todas las respuestas públicas, y que en el saludo vaya siempre `{nombre}` (el nombre de la persona del comentario, nunca el de un ejemplo). Los textos vigentes, ya con ese tono, están en **`06-respuestas-vigentes.md`** y en la carpeta `moldes/`. Los bloques de este archivo explican cada escenario y sus cambios, pero el texto que vale es el de `06`.
+
 Los 13 textos pasan `scripts/revisar_redes.py`. Los archivos sueltos están en `moldes/`.
 Cada escenario trae su volumen en la muestra de 600 comentarios, casos reales donde se usaría, el texto y las excepciones.
 **Ninguno se activa sin tu OK a la versión final.** Si un texto cambia, se vuelve a mostrar.

@@ -1,3 +1,3 @@
-Hola {nombre}, con mucho gusto te cuento 😊 Puedes pagar con tarjeta Visa, Mastercard o American Express, con PayPal, con Shop Pay o con Google Pay. Si prefieres no registrar tu tarjeta en la tienda, PayPal o Google Pay son lo más cómodo. Lo eliges al final de tu compra, aquí.
+Hola {nombre}, con muchísimo gusto te cuento 😊 Puedes pagar con tarjeta Visa, Mastercard o American Express, con PayPal, con Shop Pay o con Google Pay. Si prefieres no registrar tu tarjeta, PayPal o Google Pay son lo más cómodo. Lo eliges al final de tu compra, aquí mismo.
 {enlace del producto}
 Mariana

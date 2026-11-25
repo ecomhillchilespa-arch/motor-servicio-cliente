@@ -1,2 +1,2 @@
-Hola {nombre}, mil disculpas por la espera 🙏 Te acabo de escribir por mensaje privado para ubicar tu pedido contigo y decirte cuándo te llega.
+Hola {nombre}, mil disculpas por la espera, de verdad 🙏 Ya te escribí por mensaje privado para ubicar tu pedido contigo y contarte cuándo te llega. Aquí estoy para ayudarte.
 Mariana

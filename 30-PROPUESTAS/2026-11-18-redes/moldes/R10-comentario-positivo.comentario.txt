@@ -1,2 +1,2 @@
-Hola {nombre}, ¡qué alegría leerte! Muchas gracias por tomarte el tiempo de contarlo 💛
+Hola {nombre}, ¡qué alegría leerte! Muchas gracias por tomarte el tiempo de contarlo, nos hace el día 💛
 Mariana
