@@ -249,7 +249,7 @@ Casos reales:
 
 Comentario público:
 ```
-Hola {nombre}, gracias por contarlo, y qué pena que no hayas notado el cambio. Nos gustaría que ahora sí te funcione, así que te escribí por mensaje privado para ver contigo cómo lo estás usando.
+Hola {nombre}, gracias por contarlo, y qué pena que no hayas notado el cambio. El tiempo de adaptación puede variar de una persona a otra. Nos gustaría que ahora sí te funcione, así que te escribí por mensaje privado para ver contigo cómo lo estás usando.
 Mariana
 ```
 
