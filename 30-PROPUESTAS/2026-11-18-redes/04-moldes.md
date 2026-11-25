@@ -214,9 +214,14 @@ Casos reales:
 
 Comentario:
 ```
-Hola {nombre}, muchas gracias por preguntar antes de comprar. La guía de AlbaMed indica que no se use con dentadura completa, dientes flojos, aparatos de ortodoncia ni implantes de menos de un año. En ese caso preferimos decirte que no es para ti.
+Hola {nombre}, muchas gracias por preguntar antes de comprar. La guía de AlbaMed indica que no se use con {lo que preguntó}. En ese caso preferimos decirte que no es para ti.
 Mariana
 ```
+Karla, 25-nov: se nombra **solo lo que preguntó**, no la lista completa. Lo que se puede nombrar, porque está en la guía o en la página:
+- de la guía: dentadura completa, dientes flojos, aparatos de ortodoncia, implantes de menos de un año, menores de 18 años;
+- de la página: apnea del sueño, trastornos respiratorios severos, enfermedad periodontal avanzada, trastorno temporomandibular.
+
+Pendiente de Karla: qué se responde al **bruxismo**, que no está en ninguna de las dos listas (hasta saberlo, pasa a Karla sin texto).
 
 Excepciones y cuidados:
 - Solo se usa cuando lo que pregunta está en la lista de la guía. Si no está, pasa a Karla sin texto.
@@ -239,6 +244,7 @@ Mariana
 
 Excepciones y cuidados:
 - Es el texto que ya aprobaste para el correo, acortado.
+- 🚩 Pendiente (25-nov): confirmar con Jie que Dr. Harryi es el laboratorio que fabrica VisionPure. Karla lo tenía anotado así en su «Voz de marca» de octubre.
 - 🚩 Una clienta dice que su Dr. Harryi lista solo luteína. Hasta que Jie confirme qué dice esa etiqueta, este molde no se usa con quien reclame por los ingredientes.
 - Si además pide la plata, va al camino C.
 
@@ -281,9 +287,10 @@ Casos reales:
 
 Comentario:
 ```
-Hola {nombre}, ¡qué alegría leerte! Muchas gracias por tomarte el tiempo de contarlo.
+Hola {nombre}, ¡qué alegría leerte! Muchas gracias por tomarte el tiempo de contarlo 💛
 Mariana
 ```
+Karla, 25-nov: lleva su 💛, que ya usaba en estas respuestas.
 
 Excepciones y cuidados:
 - Si el «gracias» es respuesta a una respuesta nuestra, no se contesta de nuevo.
