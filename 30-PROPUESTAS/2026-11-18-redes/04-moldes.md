@@ -79,22 +79,65 @@ Casos reales:
 - «Lo compre y no me ha llegado 😡 cuidado!» (oculto)
 - «A mi no me a llegado desde septiembre 8868 mi pedido»
 
-Comentario público:
+**Corregido por Karla el 25-nov**, con lo que hace hoy a mano:
+- Si el pedido lleva **menos de 5 días** en tránsito, le da el tiempo de entrega en público (R04b).
+- Si lleva **más de 5 días**, le escribe por privado, le dice dónde va el pedido y le manda el enlace de rastreo (R04, R04c).
+- **Pide el correo, no el número de pedido**, porque la gente casi siempre le da el número de guía.
+- Si hay problemas en la entrega, le da por privado el contacto de la paquetería de última milla (R04d, que es el texto del molde B del correo).
+- Karla pidió agregar un emoji (va uno, R11).
+
+**Lo que Karla le propone a Martin y no se aplicó** (son decisiones suyas):
+- Usar **«5 a 15 días hábiles»** como plazo. Hoy el revisor solo acepta «a más tardar en 18 días desde tu compra» (R9 y decisión 4).
+- **Quitar la firma «Mariana»** en redes. Hoy es obligatoria (R12).
+- En el **privado**, el enlace de rastreo con la guía (`/apps/parcelpanel?nums=…`) hoy da ERROR por la R10. Se propone que la R10 valga solo para los comentarios públicos, porque en el privado el enlace de rastreo es justo lo que la clienta necesita (igual que en el correo).
+
+Comentario público, más de 5 días o sin saber cuál es el pedido (R04):
 ```
-Hola {nombre}, mil disculpas por la espera. Te acabo de escribir por mensaje privado para ubicar tu pedido contigo y decirte cuándo te llega.
+Hola {nombre}, mil disculpas por la espera 🙏 Te acabo de escribir por mensaje privado para ubicar tu pedido contigo y decirte cuándo te llega.
 Mariana
 ```
 
-Mensaje privado:
+Comentario público, recién compró, menos de 5 días (R04b):
+```
+Hola {nombre}, muchas gracias por tu compra 🙏 Tu pedido va en camino y te estaría llegando a más tardar en 18 días desde tu compra. Te escribí por mensaje privado con el enlace para que veas cada avance.
+Mariana
+```
+
+Mensaje privado para ubicarlo (R04):
 ```
 Hola {nombre}, muchas gracias por escribirnos y mil disculpas por la espera.
 
-Para ubicar tu pedido y decirte dónde viene y cuándo te llega, ¿me ayudas con tu número de pedido o con el correo con el que hiciste la compra? Te lo pido porque aquí en Facebook solo veo tu nombre, y con ese dato lo encuentro de inmediato y te respondo por aquí mismo.
+Para ubicar tu pedido y decirte dónde viene y cuándo te llega, ¿me ayudas con el correo con el que hiciste la compra? Te lo pido porque aquí en Facebook solo veo tu nombre, y con tu correo lo encuentro de inmediato y te respondo por aquí mismo.
+
+Mariana
+```
+
+Mensaje privado, ya ubicado (R04c):
+```
+Hola {nombre}, muchas gracias por esperarme. Ya encontré tu pedido y no te preocupes, que va muy bien.
+
+{dónde viene}. Te estaría llegando a más tardar el {fecha}.
+
+En este enlace puedes ir viendo cada avance.
+https://alegrestiendamexico.com/apps/parcelpanel?nums={guía}
+
+Mariana
+```
+
+Mensaje privado, problema en la entrega (R04d):
+```
+Hola {nombre}, muchas gracias por esperarme. ¡Tu pedido ya está en tu ciudad! J&T Express, que es la paquetería que te lo lleva hasta tu casa, salió a entregarlo pero no logró dar con tu domicilio.
+
+Para que no se regrese, escríbeles por WhatsApp al 55 7100 1047 con tu número de guía {guía JMX} y tu dirección completa, con colonia, código postal, referencias para encontrar tu casa y un teléfono de contacto. Así acuerdas la entrega directo con ellos.
+
+Lo ideal es hacerlo hoy o mañana, porque J&T lo intenta solo por unos días.
 
 Mariana
 ```
 
 Excepciones y cuidados:
+- Si da el número de guía en vez del correo, sirve igual: con la guía también se ubica el pedido.
+- R04d necesita la guía de J&T (JMX). Si solo tenemos la de origen (YT…), se usa el teléfono de la oficina local que viene en el aviso de J&T.
 - Si el comentario ya trae el número de pedido (como el 8868), no se le vuelve a pedir: el privado va directo con la respuesta del motor del correo para ese pedido.
 - Si esa persona ya tiene un caso abierto por correo, se une a esa conversación y se le responde una sola vez.
 - Si dice «fraude» o «PROFECO» y tiene pedido, sigue siendo este molde, pero el caso sube a Martin como en el correo.

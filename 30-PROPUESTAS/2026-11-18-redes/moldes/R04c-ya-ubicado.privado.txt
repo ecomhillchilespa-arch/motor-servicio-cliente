@@ -1,0 +1,8 @@
+Hola {nombre}, muchas gracias por esperarme. Ya encontré tu pedido y no te preocupes, que va muy bien.
+
+{dónde viene: por ejemplo, «Ya está en el aeropuerto, por tomar su vuelo hacia México» o «¡Ya llegó a México!»}. Te estaría llegando a más tardar el {fecha}.
+
+En este enlace puedes ir viendo cada avance.
+https://alegrestiendamexico.com/apps/parcelpanel?nums={guía}
+
+Mariana
