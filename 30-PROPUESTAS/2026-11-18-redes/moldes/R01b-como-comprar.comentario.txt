@@ -1,0 +1,3 @@
+Hola {nombre}, con mucho gusto te ayudo 😊 Entras a este enlace, tocas "Agregar al carrito" y luego "Comprar". Llenas tus datos de envío completos, con el número de tu casa y tu teléfono, y eliges cómo pagar. El envío es gratis a todo México.
+{enlace del producto}
+Mariana

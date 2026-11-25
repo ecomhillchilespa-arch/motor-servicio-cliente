@@ -13,17 +13,28 @@ Casos reales:
 - «Quiero más info y costos por fa»
 - «Como lo compro»
 
+**Corregido con Karla el 25-nov**, partiendo de sus respuestas de «Voz de marca y respuestas · Alegres Tienda México» (Notion, octubre). Se pasaron a tú y a la firma de Mariana, con un emoji y el enlace del producto siempre (regla de Martin del 20-oct: «el enlace de la página de producto va SIEMPRE»). Los dos enlaces se probaron el 25-nov y abren la página correcta.
+
+🚩 **Precio sin confirmar.** En la tienda, el 25-nov, los dos productos aparecen con un precio base de $1,398 (VisionPure) y $1,399 (AlbaMed), y no de $499 y $699. Karla ya había anotado en octubre que la gente reclama «en la publicación dice $499 y en el sistema aparece $699». Mientras Martin no confirme qué precio se dice, el texto queda con `{precio de 1}` y `{precio de 2}`.
+
 Comentario (VisionPure):
 ```
-Hola {nombre}, muchas gracias por tu interés. VisionPure está en $499 un frasco y en $699 los dos, con envío gratis a todo México. Lo pides directo en nuestra tienda y ahí mismo eliges cómo pagar.
+Hola {nombre}, muchas gracias por tu interés 😊 VisionPure está en ${precio de 1} un frasco y en ${precio de 2} los dos, con envío gratis a todo México. Lo pides directo aquí y ahí mismo eliges cómo pagar.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
 
 Comentario (AlbaMed):
 ```
-Hola {nombre}, muchas gracias por tu interés. AlbaMed está en $499 una férula y en $699 las dos, con envío gratis a todo México. La pides directo en nuestra tienda y ahí mismo eliges cómo pagar.
+Hola {nombre}, muchas gracias por tu interés 😊 AlbaMed está en ${precio de 1} una férula y en ${precio de 2} las dos, con envío gratis a todo México. La pides directo aquí y ahí mismo eliges cómo pagar.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
+Mariana
+```
+
+Comentario, «no sé cómo comprarlo» (R01b, de la respuesta de Karla «No encuentro cómo comprarlo»):
+```
+Hola {nombre}, con mucho gusto te ayudo 😊 Entras a este enlace, tocas "Agregar al carrito" y luego "Comprar". Llenas tus datos de envío completos, con el número de tu casa y tu teléfono, y eliges cómo pagar. El envío es gratis a todo México.
+{enlace del producto}
 Mariana
 ```
 
@@ -41,9 +52,18 @@ Casos reales:
 - «Si lo quiero pero no manejo tarjetas xq no usan Oxxo»
 - «manden número de cuenta y les deposito en farmacia Guadalajara»
 
-Comentario:
+**Corregido con Karla el 25-nov.** En su Notion la respuesta de pago contra entrega y la de métodos de pago iban juntas. Karla pidió separarlas, una para cada caso. Los métodos de pago salen de lo que ella confirmó en el checkout el 21-oct (Visa, Mastercard, American Express, PayPal, Shop Pay y Google Pay). Conviene volver a mirarlo en el checkout antes de aprobar.
+
+Comentario, «¿pago al recibir u OXXO?» (R02):
 ```
-Hola {nombre}, muchas gracias por preguntar. Por ahora no tenemos pago al recibir ni en OXXO. Puedes pagar con tarjeta de débito o de crédito, o con PayPal. Apenas compras te llega a tu correo el número de tu pedido, y después el enlace para ir viendo dónde viene tu paquete.
+Hola {nombre}, muchas gracias por preguntar. Por ahora no tenemos pago al recibir ni en OXXO, pero puedes pagar con PayPal o Google Pay sin registrar tu tarjeta en la tienda. Apenas compras te llega a tu correo el número de tu pedido, y después el enlace para ver dónde viene tu paquete hasta que llegue a tu casa 📦
+Mariana
+```
+
+Comentario, «¿cómo se paga?» (R02b):
+```
+Hola {nombre}, con mucho gusto te cuento 😊 Puedes pagar con tarjeta Visa, Mastercard o American Express, con PayPal, con Shop Pay o con Google Pay. Si prefieres no registrar tu tarjeta en la tienda, PayPal o Google Pay son lo más cómodo. Lo eliges al final de tu compra, aquí.
+{enlace del producto}
 Mariana
 ```
 

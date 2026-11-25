@@ -1,3 +1,3 @@
-Hola {nombre}, muchas gracias por tu interés. VisionPure está en $499 un frasco y en $699 los dos, con envío gratis a todo México. Lo pides directo en nuestra tienda y ahí mismo eliges cómo pagar.
+Hola {nombre}, muchas gracias por tu interés 😊 VisionPure está en ${precio de 1} un frasco y en ${precio de 2} los dos, con envío gratis a todo México. Lo pides directo aquí y ahí mismo eliges cómo pagar.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana

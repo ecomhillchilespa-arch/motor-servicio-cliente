@@ -1,2 +1,2 @@
-Hola {nombre}, muchas gracias por preguntar. Por ahora no tenemos pago al recibir ni en OXXO. Puedes pagar con tarjeta de débito o de crédito, o con PayPal. Apenas compras te llega a tu correo el número de tu pedido, y después el enlace para ir viendo dónde viene tu paquete.
+Hola {nombre}, muchas gracias por preguntar. Por ahora no tenemos pago al recibir ni en OXXO, pero puedes pagar con PayPal o Google Pay sin registrar tu tarjeta en la tienda. Apenas compras te llega a tu correo el número de tu pedido, y después el enlace para ver dónde viene tu paquete hasta que llegue a tu casa 📦
 Mariana
