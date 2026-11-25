@@ -57,6 +57,7 @@ Casos reales:
 Comentario, «¿pago al recibir u OXXO?» (R02):
 ```
 Hola {nombre}, muchas gracias por preguntar. Por ahora no tenemos pago al recibir ni en OXXO, pero puedes pagar con PayPal o Google Pay sin registrar tu tarjeta en la tienda. Apenas compras te llega a tu correo el número de tu pedido, y después el enlace para ver dónde viene tu paquete hasta que llegue a tu casa 📦
+{enlace del producto}
 Mariana
 ```
 
@@ -81,7 +82,8 @@ Casos reales:
 
 Comentario:
 ```
-Hola {nombre}, con mucho gusto te cuento. Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para ir viendo cada avance.
+Hola {nombre}, con mucho gusto te cuento. Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para ir viendo cada avance. En este enlace ves todos los detalles.
+{enlace del producto}
 Mariana
 ```
 
@@ -343,6 +345,19 @@ Lo que cambió respecto de la respuesta de Karla:
 - Se sacó «grado médico»: es un aval sin documento a mano (R7) y el revisor lo frena.
 - Se sacó «hoy tenemos promo»: las promociones se ven en el enlace (igual que el precio, R01).
 - Saludo «Hola {nombre},» y firma de Mariana, como en las demás.
+
+## Regla de Karla (25-nov): a quien no ha comprado, siempre el enlace
+«Todos los comentarios de personas que no han comprado van con enlace.» Llevan el enlace limpio del producto del anuncio: R01, R01b, R02, R02b, R03, R05, R06, R11, R12, R13, R14 y R16. No lo llevan los de quien ya compró (R04, R08, R09, R15), el positivo (R10) ni los que dicen que no es para esa persona (R07, R07b), porque ahí el enlace invitaría a comprar justo lo que le estamos diciendo que no le sirve.
+
+## R16 · Etiqueta a otra persona (nuevo, Karla 25-nov)
+**Camino A** · Karla: «cuando etiquetan a otra persona en los comentarios, damos las gracias por el interés y ofrecemos el producto a varias». Reemplaza el camino D del archivo 02 para las etiquetas: ya no quedan sin respuesta. Los emojis sueltos y las bromas siguen sin respuesta.
+```
+Hola {nombre}, muchas gracias por compartirlo 😊 Si a ustedes les interesa, en este enlace ven el precio y todos los detalles, y ahí mismo lo piden con envío gratis a todo México.
+{enlace del producto}
+Mariana
+```
+- Va en «ustedes» porque le habla a quien comentó y a quien etiquetó.
+- 🚩 Para Martin: el diagnóstico del 18-nov decía que contestarle a cada etiqueta con una promoción «se ve como spam». Esta respuesta es corta, no trae promoción y no se repite igual muchas veces en el mismo anuncio (si hay varias etiquetas seguidas, se responde a una o dos).
 
 ## De los comentarios reales que trajo Karla (25-nov)
 Karla pegó 10 comentarios de los anuncios con las respuestas que le propone el asistente de Meta. Casi todos ya tienen molde: «Solo por 650 pesos» (R01, sin precio), «Lo pedí hace un mes y no llega» y «Todavía no llega mi pedido» (R04), «Informe» (R11), «Qué tiempo duran» (R12) y «Quién ya las compró» (R05). Faltaban 3, que se agregan abajo.
