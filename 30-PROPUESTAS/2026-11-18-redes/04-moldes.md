@@ -15,18 +15,18 @@ Casos reales:
 
 **Corregido con Karla el 25-nov**, partiendo de sus respuestas de «Voz de marca y respuestas · Alegres Tienda México» (Notion, octubre). Se pasaron a tú y a la firma de Mariana, con un emoji y el enlace del producto siempre (regla de Martin del 20-oct: «el enlace de la página de producto va SIEMPRE»). Los dos enlaces se probaron el 25-nov y abren la página correcta.
 
-🚩 **Precio sin confirmar.** En la tienda, el 25-nov, los dos productos aparecen con un precio base de $1,398 (VisionPure) y $1,399 (AlbaMed), y no de $499 y $699. Karla ya había anotado en octubre que la gente reclama «en la publicación dice $499 y en el sistema aparece $699». Mientras Martin no confirme qué precio se dice, el texto queda con `{precio de 1}` y `{precio de 2}`.
+**El precio no se escribe en la respuesta** (Karla, 25-nov: «no le coloquemos precio, allí coloquemos el enlace e invitemos al cliente a seguir el enlace para conocer el precio y más detalles»). Así el texto no queda viejo cuando cambia la promoción, y no choca con lo que ve la clienta al comprar. El 25-nov la tienda mostraba un precio base de $1,398 (VisionPure) y $1,399 (AlbaMed), y en octubre Karla ya había anotado reclamos de «en la publicación dice $499 y en el sistema aparece $699».
 
 Comentario (VisionPure):
 ```
-Hola {nombre}, muchas gracias por tu interés 😊 VisionPure está en ${precio de 1} un frasco y en ${precio de 2} los dos, con envío gratis a todo México. Lo pides directo aquí y ahí mismo eliges cómo pagar.
+Hola {nombre}, muchas gracias por tu interés 😊 En este enlace ves el precio de VisionPure y todos los detalles. Ahí mismo lo pides y eliges cómo pagar, con envío gratis a todo México.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
 
 Comentario (AlbaMed):
 ```
-Hola {nombre}, muchas gracias por tu interés 😊 AlbaMed está en ${precio de 1} una férula y en ${precio de 2} las dos, con envío gratis a todo México. La pides directo aquí y ahí mismo eliges cómo pagar.
+Hola {nombre}, muchas gracias por tu interés 😊 En este enlace ves el precio de AlbaMed y todos los detalles. Ahí mismo la pides y eliges cómo pagar, con envío gratis a todo México.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
 Mariana
 ```
@@ -41,7 +41,7 @@ Mariana
 Excepciones y cuidados:
 - El producto se saca del anuncio donde comentó. Si el anuncio no deja claro cuál es, pasa a Karla.
 - Si en el mismo comentario pregunta otra cosa («¿y sirve para cataratas?»), manda el molde de salud.
-- Los precios salen de la regla de hoy ($499 una unidad, $699 dos). Si la promoción cambia, se cambia el molde ese mismo día, y por eso no nombra «Buen Fin» ni «2x1».
+- No nombra precios, promociones, «Buen Fin» ni «2x1»: todo eso lo ve en el enlace.
 
 ## R02 · ¿Pago al recibir o en OXXO?
 **Camino A** · 45 de 600 · 13 ocultos · es la pregunta más repetida
