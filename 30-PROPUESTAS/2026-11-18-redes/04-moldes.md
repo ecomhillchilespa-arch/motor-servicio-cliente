@@ -86,9 +86,7 @@ Casos reales:
 - Si hay problemas en la entrega, le da por privado el contacto de la paquetería de última milla (R04d, que es el texto del molde B del correo).
 - Karla pidió agregar un emoji (va uno, R11).
 
-**Lo que Karla le propone a Martin y no se aplicó** (son decisiones suyas):
-- Usar **«5 a 15 días hábiles»** como plazo. Hoy el revisor solo acepta «a más tardar en 18 días desde tu compra» (R9 y decisión 4).
-- **Quitar la firma «Mariana»** en redes. Hoy es obligatoria (R12).
+**Lo que se le propone a Martin** (es decisión suya):
 - En el **privado**, el enlace de rastreo con la guía (`/apps/parcelpanel?nums=…`) hoy da ERROR por la R10. Se propone que la R10 valga solo para los comentarios públicos, porque en el privado el enlace de rastreo es justo lo que la clienta necesita (igual que en el correo).
 
 Comentario público, más de 5 días o sin saber cuál es el pedido (R04):
