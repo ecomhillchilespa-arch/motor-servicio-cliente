@@ -1,0 +1,3 @@
+Hola {nombre}, muchas gracias por preguntar 😊 Por ahora no vendemos en Mercado Libre, solo en nuestra tienda. Ahí lo pides directo, con envío gratis a todo México, y apenas compras te llega a tu correo el número de tu pedido.
+{enlace del producto}
+Mariana

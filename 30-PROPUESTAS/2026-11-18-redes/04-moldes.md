@@ -344,6 +344,54 @@ Lo que cambió respecto de la respuesta de Karla:
 - Se sacó «hoy tenemos promo»: las promociones se ven en el enlace (igual que el precio, R01).
 - Saludo «Hola {nombre},» y firma de Mariana, como en las demás.
 
+## De los comentarios reales que trajo Karla (25-nov)
+Karla pegó 10 comentarios de los anuncios con las respuestas que le propone el asistente de Meta. Casi todos ya tienen molde: «Solo por 650 pesos» (R01, sin precio), «Lo pedí hace un mes y no llega» y «Todavía no llega mi pedido» (R04), «Informe» (R11), «Qué tiempo duran» (R12) y «Quién ya las compró» (R05). Faltaban 3, que se agregan abajo.
+
+**Cuidado con las respuestas del asistente de Meta** (no se usan tal cual):
+- Nombran la garantía («90 días», «30 noches de prueba»), que es la decisión 5 de Martin.
+- Ponen promociones con precio («2 por $899», «1+1 gratis»), que cambian y no siempre coinciden con lo que ve la clienta.
+- Dicen «grado médico» (R7).
+- Dan una forma de uso equivocada para VisionPure («por la mañana, parpadeando un par de veces»). La del envase es 2 o 3 veces al día, 2 rociadas por párpado y parpadear 5 veces.
+- Pegan el enlace copiado de Facebook (`l.facebook.com/…?fbclid=…`) y a veces el de la tienda de España (`alegrestiendaes.com`) en un anuncio de México (R10). Siempre se pega el enlace limpio del producto.
+- Usan «¡Hola, X!» con varias exclamaciones y varios emojis (R11).
+
+## R13 · «¿Tienes por Mercado Libre?» (nuevo)
+**Camino A**
+```
+Hola {nombre}, muchas gracias por preguntar 😊 Por ahora no vendemos en Mercado Libre, solo en nuestra tienda. Ahí lo pides directo, con envío gratis a todo México, y apenas compras te llega a tu correo el número de tu pedido.
+{enlace del producto}
+Mariana
+```
+- 🚩 Confirmar con Martin que no hay venta en Mercado Libre ni en otra tienda.
+
+## R14 · VisionPure, «¿cada cuándo se usa?» (nuevo)
+**Camino A** · con la forma de uso del envase, la misma del privado de R09.
+```
+Hola {nombre}, con mucho gusto te cuento 😊 VisionPure se aplica 2 o 3 veces al día, todos los días. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadeas 5 veces. Va por fuera, nunca directo al ojo. En este enlace ves todos los detalles.
+https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
+Mariana
+```
+
+## R15 · «Me llegó un producto diferente» (nuevo)
+**Camino C** · se resuelve por privado, como en el correo («Voz de marca», casos B y C).
+Comentario público:
+```
+Hola {nombre}, qué pena el mal rato, y muchas gracias por avisarnos 🙏 Te acabo de escribir por mensaje privado para revisar contigo lo que te llegó y resolverlo.
+Mariana
+```
+Mensaje privado:
+```
+Hola {nombre}, muchas gracias por avisarnos, y una disculpa por el mal rato.
+
+Para resolverlo, ¿me ayudas con dos cosas? El correo con el que hiciste la compra, porque aquí en Facebook solo veo tu nombre, y una foto del frasco donde se lea bien la etiqueta. Con eso reviso tu pedido y te digo qué hacemos.
+
+Mariana
+```
+- Si la foto muestra la etiqueta Dr. Harryi, se responde con el R08 (es el mismo VisionPure). Si es otro producto, se repone, como en el correo.
+- No se nombra la garantía ni la devolución en público.
+
+**Falta de dientes** («si me faltan piezas dentales, ¿se puede usar?»): no está igual en la guía (la guía dice «dientes flojos» y «dentadura completa»). Hasta confirmarlo, lo responde Karla a mano sin prometer que sirve.
+
 ## Lo que todavía no tiene molde
 | Escenario | Por qué | Qué falta |
 |---|---|---|
