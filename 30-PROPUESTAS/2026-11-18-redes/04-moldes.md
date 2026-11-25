@@ -244,7 +244,7 @@ Mariana
 
 Excepciones y cuidados:
 - Es el texto que ya aprobaste para el correo, acortado.
-- 🚩 Pendiente (25-nov): confirmar con Jie que Dr. Harryi es el laboratorio que fabrica VisionPure. Karla lo tenía anotado así en su «Voz de marca» de octubre.
+- ✅ Karla, 25-nov: Jie confirmó que Dr. Harryi es el laboratorio que fabrica VisionPure.
 - 🚩 Una clienta dice que su Dr. Harryi lista solo luteína. Hasta que Jie confirme qué dice esa etiqueta, este molde no se usa con quien reclame por los ingredientes.
 - Si además pide la plata, va al camino C.
 
