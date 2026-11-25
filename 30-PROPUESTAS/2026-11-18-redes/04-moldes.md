@@ -172,9 +172,11 @@ Casos reales:
 
 Comentario:
 ```
-Hola {nombre}, es normal preguntarlo antes de comprar por internet. Apenas compras te llega a tu correo el número de tu pedido y después un enlace para ver dónde viene tu paquete. Y si tienes cualquier duda antes o después, me escribes por mensaje privado y te respondo yo.
+Hola {nombre}, es normal preguntarlo antes de comprar por internet. En la página puedes leer lo que cuentan quienes ya lo usan. Apenas compras te llega a tu correo el número de tu pedido y después un enlace para ver dónde viene tu paquete. Y si tienes cualquier duda, me escribes por mensaje privado y te respondo yo.
+{enlace del producto}
 Mariana
 ```
+Karla, 25-nov: se agregan los testimonios de la página con el enlace del producto (las dos páginas tienen una sección «Testimonios»).
 
 Excepciones y cuidados:
 - Si la persona dice que compró y no le llegó, no es este molde: es el R04.
@@ -199,6 +201,7 @@ Mariana
 
 Excepciones y cuidados:
 - Hoy a estas preguntas se les responde «sí, te sirve perfectamente». Este molde no dice ni sí ni no: dice qué es y cómo se usa.
+- Karla, 25-nov: no se agrega «consulta a tu oftalmólogo». Queda como está.
 - Si describe un síntoma serio («veo manchas negras», «perdí la visión»), no lleva molde: lo ve Karla y, si hace falta, Martin.
 - Si ya lo usa y le arde o le molesta, va a los moldes S1 y S2 del correo, por privado.
 
@@ -257,7 +260,7 @@ Mensaje privado (VisionPure):
 ```
 Hola {nombre}, muchas gracias por contarnos cómo te fue, y qué pena que no hayas notado el cambio.
 
-Nos gustaría que ahora sí te funcione. ¿Me cuentas cómo lo estás aplicando y hace cuánto lo usas? Te pregunto porque lo que mejor resulta es aplicarlo sobre el párpado cerrado, dos rociadas en la mañana y en la noche, todos los días, y dejar los ojos cerrados unos 30 segundos hasta que se seque.
+Nos gustaría que ahora sí te funcione. ¿Me cuentas cómo lo estás aplicando y hace cuánto lo usas? Te pregunto porque lo que mejor resulta es lo que indica el envase. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadear 5 veces. Se aplica 2 o 3 veces al día, todos los días, porque lo más importante es la constancia.
 
 Con lo que me cuentes vemos juntos el paso siguiente.
 
@@ -285,6 +288,29 @@ Mariana
 Excepciones y cuidados:
 - Si el «gracias» es respuesta a una respuesta nuestra, no se contesta de nuevo.
 - No se le pide reseña ni se le ofrece nada.
+
+## R11 · «Quiero información» (nuevo, Karla 25-nov)
+**Camino A** · Karla: «otro comentario seguido es cuando piden información». Una explicación breve de cada producto y el enlace de compra. Sale de lo que afirmamos en «Voz de marca» (Notion) y de la página.
+
+Comentario (VisionPure):
+```
+Hola {nombre}, con mucho gusto te cuento 😊 VisionPure es un spray de luteína de flor de caléndula con vitamina E. Se aplica por fuera, sobre el párpado cerrado, nunca directo al ojo, y cada frasco rinde más o menos un mes. En este enlace ves el precio y todos los detalles, y ahí mismo lo pides.
+https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
+Mariana
+```
+
+Comentario (AlbaMed):
+```
+Hola {nombre}, con mucho gusto te cuento 😊 AlbaMed es una férula antirronquidos ajustable, con 25 posiciones, que se usa al dormir como un protector bucal. Las primeras 2 a 5 noches se siente, mientras uno se acostumbra. En este enlace ves el precio y todos los detalles, y ahí mismo la pides.
+https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
+Mariana
+```
+
+Excepciones y cuidados:
+- No dice qué cura ni qué resultado da (R6). Si además pregunta por una condición de salud, va el R06 o el R07.
+
+## R12 · AlbaMed, «¿cuánto dura la férula?» (pendiente, Karla 25-nov)
+Karla dice que se pregunta seguido. **Todavía no tiene texto**: ni la página ni «Voz de marca» dicen cuánto dura una férula antes de cambiarla, y no se inventa. Hay que confirmarlo con Jie (lo que diga la fábrica) o con Martin, y ahí se escribe.
 
 ## Lo que todavía no tiene molde
 | Escenario | Por qué | Qué falta |
