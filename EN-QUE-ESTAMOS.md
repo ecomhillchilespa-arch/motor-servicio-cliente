@@ -22,6 +22,7 @@
 - **Ojo con los textos que se arman solos:** el 23-nov 3 de 5 venían mal. #12051 decía «ya está en México» cuando estaba en el aeropuerto de salida, porque la etapa `transito_nacional` se marca antes de que el paquete salga de China. En #12788 y #13340, Jie cambió la guía después de que se armó el texto. Hay que revisar si conviene proponerle a Martin un arreglo de raíz.
 
 ## Esperando a Martin (decisiones)
+- **Respuestas de redes (issue #4, 25-nov):** Karla corrigió las 28 respuestas (`30-PROPUESTAS/2026-11-18-redes/06-respuestas-vigentes.md`). Martin decide: aprobarlas, el plazo «5 a 15 días hábiles», bruxismo, etiquetas, Mercado Libre, «materiales resistentes» y el enlace de rastreo en el privado. Mientras tanto, Karla las usa a mano en Meta.
 - **Redes, paso 1 (issue #3, 25-nov):** que los comentarios de los anuncios, también los ocultos, lleguen al Notion de Karla, solo para leerlos. Karla responde y oculta a mano desde Meta y no le aparecen todos.
 - **Un permiso para Karla** (issue #1, 23-nov): **editora en el Sheet «Alegres Mexico».** Hoy solo puede verlo, así que su Claude no anota el stock. (Lo de ser miembro en el Notion de ecomhill quedó listo el 23-nov: su Claude ya lee sus dos listas.)
 - **Roca R2:** el reporte semanal de Karla parte el viernes 27-nov. Falta que Martin le mande el mensaje una vez.
