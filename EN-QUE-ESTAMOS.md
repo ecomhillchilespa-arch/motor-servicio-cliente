@@ -3,6 +3,7 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **#7479 (José Francisco, reclamó en Facebook, 26-nov):** compró 3 QuietLab el 23-ago y le llegaron otros dispositivos, rígidos. El 16-oct se le prometió mandar los correctos y aceptó, pero **nunca se le pidió a Jie**. Quedó la gestión de reenvío `por_enviar` (3 AlbaMed y 1 de regalo, a la misma dirección). Su correo (molde A1) está en la lista de Karla, y el comentario de Facebook está en el chat. Karla manda primero el mensaje a Jie y después el correo. Antes, revisar en el WhatsApp si Karla ya lo había pedido a mano.
 - **Avisos de excepción (26-nov):** fueron 350 pedidos en 14 días.
   - 43 ya se entregaron y 213 van en camino.
   - De los 94 que siguen en «excepción», 73 son cambios de etiqueta, 9 se devolvieron en origen y 6 están en España.
