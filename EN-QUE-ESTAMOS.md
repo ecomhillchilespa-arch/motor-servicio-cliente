@@ -3,6 +3,11 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Lote 10 (26-nov, correos nuevos):**
+  - 8 textos en la lista de Karla: clientas asustadas por el aviso de «excepción» o porque el número de YunExpress no funciona. Su guía actual sí se mueve, así que se usa el molde de la guía nueva con «no hace falta que llames al número del aviso».
+  - 5 cerrados.
+  - 4 datos van a las filas 148 a 151 del Sheet.
+  - **10 esperan la guía nueva de Jie** (les cambiaron la etiqueta el 25 o el 26-nov y escribieron asustados): #12899, #12904, #12833, #13123, #13198, #13560, #13413, #13632, #12835 y #13891. **#13891 ya pide su dinero.**
 - **Respuestas de Jie (26-nov, WhatsApp):**
   - Guías nuevas: #9896 YT2632800713590508, #12788 YT2632800713394455 y #13874 YT2632700712398921. Los 3 correos están en la lista de Karla.
   - **#12370 (España): Jie propone reembolso.** Lo decide Karla.
