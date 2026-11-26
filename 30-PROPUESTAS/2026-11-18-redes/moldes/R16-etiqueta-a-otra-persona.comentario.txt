@@ -1,3 +1,3 @@
-Hola {nombre}, muchas gracias por compartirlo, qué gusto que les interese 😊 En este enlace ven el precio y todos los detalles, y ahí mismo lo piden con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarles.
+Hola {nombre}, muchas gracias por compartirlo, qué gusto que les interese 😊 En este enlace ven el precio y todos los detalles, y pueden pedirlo con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarles.
 {enlace del producto}
 Mariana

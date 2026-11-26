@@ -1,6 +1,13 @@
 # 04 · Moldes de redes · BORRADOR, nada de esto se ha enviado
 
 > **25-nov:** Karla pidió un **tono más cálido** en todas las respuestas públicas, y que en el saludo vaya siempre `{nombre}` (el nombre de la persona del comentario, nunca el de un ejemplo). Los textos vigentes, ya con ese tono, están en **`06-respuestas-vigentes.md`** y en la carpeta `moldes/`. Los bloques de este archivo explican cada escenario y sus cambios, pero el texto que vale es el de `06`.
+>
+> **Segunda vuelta de Karla, 25-nov:**
+> - Fuera «muchísimo» y «ahí mismo lo pides» (le suenan descuidados).
+> - «No sé cómo comprarlo» va como **paso a paso**, uno por producto con su enlace (R01b-visionpure y R01b-albamed).
+> - «¿Cuánto dura la férula?» agrega que es un producto **pensado para durar, hecho con materiales resistentes**. 🚩 Confirmar que la ficha del producto lo respalda.
+> - 🚩 **Para Martin, decisión 4:** en «¿cuánto tarda?» (R03, antes de comprar) Karla prefiere **«5 a 15 días hábiles»**, que es lo que dice la política de envíos de la tienda. Hoy el texto dice «a más tardar en 18 días desde tu compra» y el revisor solo acepta ese. Si Martin elige el de la política, se cambian el texto y el revisor.
+> - Los textos con `{guía}`, `{fecha}` y `{dónde viene}` (R04c) se llenan a mano mientras Karla responde en Meta. Cuando exista el motor, los llena solo con el pedido y el rastreo.
 
 Los 13 textos pasan `scripts/revisar_redes.py`. Los archivos sueltos están en `moldes/`.
 Cada escenario trae su volumen en la muestra de 600 comentarios, casos reales donde se usaría, el texto y las excepciones.

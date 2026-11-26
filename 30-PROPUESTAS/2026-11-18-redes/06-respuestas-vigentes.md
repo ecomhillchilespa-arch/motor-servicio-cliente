@@ -6,22 +6,37 @@ Cómo se usan a mano mientras no exista el motor: se copia el texto, se cambia `
 
 ## R01 · Precio (AlbaMed) · comentario público
 ```
-Hola {nombre}, ¡qué gusto que te interese AlbaMed! Con muchísimo gusto te cuento 😊 En este enlace ves el precio y todos los detalles, y ahí mismo la pides con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarte.
+Hola {nombre}, ¡qué gusto que te interese AlbaMed! Con mucho gusto te cuento 😊 En este enlace ves el precio y todos los detalles, y puedes hacer tu pedido con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarte.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
 Mariana
 ```
 
 ## R01 · Precio (VisionPure) · comentario público
 ```
-Hola {nombre}, ¡qué gusto que te interese VisionPure! Con muchísimo gusto te cuento 😊 En este enlace ves el precio y todos los detalles, y ahí mismo lo pides con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarte.
+Hola {nombre}, ¡qué gusto que te interese VisionPure! Con mucho gusto te cuento 😊 En este enlace ves el precio y todos los detalles, y puedes hacer tu pedido con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarte.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
 
-## R01b · No sé cómo comprarlo · comentario público
+## R01b · No sé cómo comprarlo (AlbaMed) · comentario público
 ```
-Hola {nombre}, con muchísimo gusto te ayudo, es muy fácil 😊 Entras a este enlace, tocas "Agregar al carrito" y luego "Comprar". Llenas tus datos de envío completos, con el número de tu casa y tu teléfono, y eliges cómo pagar. Si te atoras en algún paso, me escribes y te ayudo.
-{enlace del producto}
+Hola {nombre}, con mucho gusto te ayudo, es muy fácil 😊
+1. Entra a este enlace https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
+2. Toca "Agregar al carrito" y luego "Comprar"
+3. Llena tus datos de envío completos, con el número de tu casa y tu teléfono
+4. Elige cómo pagar y confirma tu compra
+Si te atoras en algún paso, me escribes y te ayudo.
+Mariana
+```
+
+## R01b · No sé cómo comprarlo (VisionPure) · comentario público
+```
+Hola {nombre}, con mucho gusto te ayudo, es muy fácil 😊
+1. Entra a este enlace https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
+2. Toca "Agregar al carrito" y luego "Comprar"
+3. Llena tus datos de envío completos, con el número de tu casa y tu teléfono
+4. Elige cómo pagar y confirma tu compra
+Si te atoras en algún paso, me escribes y te ayudo.
 Mariana
 ```
 
@@ -34,14 +49,14 @@ Mariana
 
 ## R02b · ¿Cómo se paga? · comentario público
 ```
-Hola {nombre}, con muchísimo gusto te cuento 😊 Puedes pagar con tarjeta Visa, Mastercard o American Express, con PayPal, con Shop Pay o con Google Pay. Si prefieres no registrar tu tarjeta, PayPal o Google Pay son lo más cómodo. Lo eliges al final de tu compra, aquí mismo.
+Hola {nombre}, con mucho gusto te cuento 😊 Puedes pagar con tarjeta Visa, Mastercard o American Express, con PayPal, con Shop Pay o con Google Pay. Si prefieres no registrar tu tarjeta, PayPal o Google Pay son lo más cómodo. El método lo eliges al final de tu compra.
 {enlace del producto}
 Mariana
 ```
 
 ## R03 · ¿Cuánto tarda? (antes de comprar) · comentario público
 ```
-Hola {nombre}, con muchísimo gusto te cuento 😊 Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
+Hola {nombre}, con mucho gusto te cuento 😊 Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
 {enlace del producto}
 Mariana
 ```
@@ -147,35 +162,35 @@ Mariana
 
 ## R11 · Quiero información (AlbaMed) · comentario público
 ```
-Hola {nombre}, qué gusto que te interese, con muchísimo gusto te cuento 😊 AlbaMed es una férula antirronquidos ajustable, con 25 posiciones, que se usa al dormir como un protector bucal. Las primeras 2 a 5 noches se siente, mientras uno se acostumbra. En este enlace ves el precio y todos los detalles.
+Hola {nombre}, qué gusto que te interese, con mucho gusto te cuento 😊 AlbaMed es una férula antirronquidos ajustable, con 25 posiciones, que se usa al dormir como un protector bucal. Las primeras 2 a 5 noches se siente, mientras uno se acostumbra. En este enlace ves el precio y todos los detalles.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
 Mariana
 ```
 
 ## R11 · Quiero información (VisionPure) · comentario público
 ```
-Hola {nombre}, qué gusto que te interese, con muchísimo gusto te cuento 😊 VisionPure es un spray de luteína de flor de caléndula con vitamina E. Se aplica por fuera, sobre el párpado cerrado, nunca directo al ojo, y cada frasco rinde más o menos un mes. En este enlace ves el precio y todos los detalles.
+Hola {nombre}, qué gusto que te interese, con mucho gusto te cuento 😊 VisionPure es un spray de luteína de flor de caléndula con vitamina E. Se aplica por fuera, sobre el párpado cerrado, nunca directo al ojo, y cada frasco rinde más o menos un mes. En este enlace ves el precio y todos los detalles.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
 
 ## R12 · ¿Cuánto dura la férula? · comentario público
 ```
-Hola {nombre}, qué bueno que te interesa AlbaMed 😊 Cuánto dura depende del uso y del cuidado de cada persona. Es de material flexible y se lava fácil, así que te recomendamos revisarla de vez en cuando y cambiarla cuando notes desgaste. En este enlace ves el precio y todos los detalles.
+Hola {nombre}, qué bueno que te interesa AlbaMed 😊 Es un producto pensado para durar, porque está hecho con materiales resistentes. Igual depende del uso y del cuidado de cada persona, así que te recomendamos revisarla de vez en cuando y cambiarla cuando notes desgaste. En este enlace ves el precio y todos los detalles.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
 Mariana
 ```
 
 ## R13 · ¿Tienes por Mercado Libre? · comentario público
 ```
-Hola {nombre}, muchas gracias por preguntar, qué bueno que te interesa 😊 Por ahora no vendemos en Mercado Libre, solo en nuestra tienda. Ahí lo pides directo, con envío gratis a todo México, y apenas compras te llega a tu correo el número de tu pedido.
+Hola {nombre}, muchas gracias por preguntar, qué bueno que te interesa 😊 Por ahora no vendemos en Mercado Libre, solo en nuestra tienda, donde haces tu pedido con envío gratis a todo México. Apenas compras te llega a tu correo el número de tu pedido.
 {enlace del producto}
 Mariana
 ```
 
 ## R14 · ¿Cada cuándo se usa? (VisionPure) · comentario público
 ```
-Hola {nombre}, con muchísimo gusto te cuento 😊 VisionPure se aplica 2 o 3 veces al día, todos los días. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadeas 5 veces. Va por fuera, nunca directo al ojo. En este enlace ves todos los detalles.
+Hola {nombre}, con mucho gusto te cuento 😊 VisionPure se aplica 2 o 3 veces al día, todos los días. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadeas 5 veces. Va por fuera, nunca directo al ojo. En este enlace ves todos los detalles.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
@@ -197,7 +212,7 @@ Mariana
 
 ## R16 · Etiqueta a otra persona · comentario público
 ```
-Hola {nombre}, muchas gracias por compartirlo, qué gusto que les interese 😊 En este enlace ven el precio y todos los detalles, y ahí mismo lo piden con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarles.
+Hola {nombre}, muchas gracias por compartirlo, qué gusto que les interese 😊 En este enlace ven el precio y todos los detalles, y pueden pedirlo con envío gratis a todo México. Cualquier duda, aquí estoy para ayudarles.
 {enlace del producto}
 Mariana
 ```
