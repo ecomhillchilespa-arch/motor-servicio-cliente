@@ -5,7 +5,7 @@
 ## Esperando a Karla
 - **Los 9 abiertos del lote 7 (26-nov):**
   - #13388 tiene texto en la lista de Karla: se le explica de dónde sale el pedido, con la frase aprobada de origen.
-  - **#10819:** el reenvío prometido nunca salió y ahora pide los $1,299. Según `soluciones.md`, si no quiere el reenvío, el reembolso va sin demora. Lo decide Karla (menos de US$200). Si lo aprueba, lo hace en Shopify y le avisa a Jie que no lo reenvíe (gestión 61).
+  - **#10819:** el reenvío prometido nunca salió y pidió los $1,299. Karla eligió ofrecer otra vez el reenvío, con una unidad de regalo (molde A1, el texto está en su lista). La gestión 61 quedó en `esperando_dato`. Si la clienta responde que no lo quiere, el reembolso va sin demora.
   - **Preguntas a Jie:** en #9896, #12370 y #12788 el rastreo muestra «Order Cancelled» o «returned to sender», y el paquete sigue en China o le cambiaron la etiqueta. Se le pide la guía nueva o que lo reenvíe. #12997 (España) pregunta por la paquetería final y dos referencias de Ecoscooting. #13874 lleva desde el 20-nov sin guía.
   - Siguen #13713 y #13891, que esperan la respuesta de Jie sobre las 7 guías.
 - **Lote 7 (25-nov, noche):** Karla mandó los 27 de los lotes 5 y 6. De los 20 nuevos de «¿dónde está?» y «no me llegó»: 3 textos en su lista (#12800, #12555, #14128) y 8 cerrados (gracias, duplicados, y #12629 y #13400, que ya recibieron respuesta). Quedan sin texto: #13713 y #13891 (esperan a Jie por la guía), #12788 (aviso de etiqueta nueva sin la guía nueva), #13874 (sin guía, dice «fraude»), #9896 (devuelto otra vez, quiere ir a buscarlo), #10819 (pide los $1,299: plata), #12370 (España, devuelto), #12997 (España, preguntas de transporte) y #13388 (molesto por el plazo).
