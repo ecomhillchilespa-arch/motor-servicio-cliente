@@ -40,7 +40,9 @@
 
 **Lo que es para Karla se lo manda el motor, por Notion o por correo** (Martin, 20-nov, en la reunión semanal con la sesión CEO: «¿por qué no se lo manda el mismo motor?… mandemos a Karla las cosas por correo o por Notion también, en caso que sea tarea. Esos son los canales de comunicación con ella»). Si es tarea, va como fila en su Notion (casi siempre en «🤝 Megafulfill» o «✅ Tareas de Karla»), con la explicación completa. Martin no hace de mensajero. El correo a Karla nunca sale desde contacto@ (ese se usa solo para leer).
 
-**La tienda nunca escribe por WhatsApp, y los pedidos de España los maneja Karla** (Karla, 26-nov: «yo soy quien maneja los pedidos de España, no hablamos por WhatsApp»). Si una clienta cuenta que le escribieron por WhatsApp pidiendo un pago o diciendo que el pago no llegó, no es nuestro: se le responde que no pague nada por ese medio y se le pide su número de pedido o su comprobante. Para dudas de pedidos de España, se le pregunta a Karla, no a Martin.
+**Los pedidos de España los maneja Karla** (Karla, 26-nov). Para dudas de pedidos de España, se le pregunta a Karla, no a Martin.
+
+**La tienda sí manda WhatsApp automáticos (Dondy), aunque Karla no escribe por WhatsApp** (corrección del 27-nov). Karla dijo «no hablamos por WhatsApp», y se le respondió a una clienta que el mensaje «no era nuestro». Pero en Shopify las clientas tienen etiquetas «Dondy - Carro de 15 minutos» y «Dondy-WhatsApp»: Dondy es la app que manda por WhatsApp, sola, avisos de carrito abandonado o de pago pendiente. Si una clienta cuenta que le escribieron por WhatsApp que «el pago no llegó», lo más probable es que sea Dondy y que su pago no se haya completado: se busca su carrito abandonado en Shopify antes de decir que es una estafa. Lo que sí vale siempre es pedirle que no pague por WhatsApp a ningún número que le dé otra cosa que el enlace de la tienda.
 
 ## Textos para clientas
 

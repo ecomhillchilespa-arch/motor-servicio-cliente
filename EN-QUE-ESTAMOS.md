@@ -3,6 +3,10 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Clientas sin pedido (27-nov):** Karla las buscó en Shopify y no aparecen. Hay 7 correos en su lista:
+  - 6 piden el comprobante de pago para buscar la compra por la transacción: Celeste (España, 0 pedidos), Nikki, José Manuel, José Miguel, depcocula y la de Scotiabank.
+  - 1 le explica a la clienta del correo yaretzi que su pago no pasó: el código de seguridad no coincidió y quedó como carrito abandonado.
+  - **Corrección:** a la clienta del «WhatsApp» (jotaserrano) se le dijo que ese mensaje no era nuestro, pero lo más probable es que fuera Dondy, el WhatsApp automático de carrito abandonado. Cuando responda, se le aclara (no se le puede mandar otro correo hasta que escriba).
 - **Lote 10 (26-nov, correos nuevos):**
   - 8 textos en la lista de Karla: clientas asustadas por el aviso de «excepción» o porque el número de YunExpress no funciona. Su guía actual sí se mueve, así que se usa el molde de la guía nueva con «no hace falta que llames al número del aviso».
   - 5 cerrados.
