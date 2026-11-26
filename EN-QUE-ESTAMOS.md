@@ -3,6 +3,12 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Avisos de excepción (26-nov):** fueron 350 pedidos en 14 días.
+  - 43 ya se entregaron y 213 van en camino.
+  - De los 94 que siguen en «excepción», 73 son cambios de etiqueta, 9 se devolvieron en origen y 6 están en España.
+  - **Solo hay 4 entregas fallidas de verdad.** #12026 tiene texto en la lista de Karla (molde B), pero hay que poner la guía JMX antes de enviarlo. #11885 todavía no escribió. #11874 ya está con Jie. #10613 es de España (CTT).
+  - #8821 fue robado.
+  - La clienta del WhatsApp tiene texto en la lista de Karla, y es urgente: no tiene que pagar nada por WhatsApp.
 - **Lote 9 (26-nov), pagos, otros, sin motivo y cancelaciones:**
   - 7 textos en la lista de Karla: 4 de «¿dónde está?» o de «orden eliminada» y 3 de quienes no pudieron pagar.
   - 27 cerrados: publicidad, solo «gracias», respuestas automáticas y correos sin texto.
