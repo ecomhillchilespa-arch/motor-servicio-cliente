@@ -3,6 +3,12 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Respuestas de Jie (26-nov, WhatsApp):**
+  - Guías nuevas: #9896 YT2632800713590508, #12788 YT2632800713394455 y #13874 YT2632700712398921. Los 3 correos están en la lista de Karla.
+  - **#12370 (España): Jie propone reembolso.** Lo decide Karla.
+  - **#11176:** está en la aduana de Baleares; Jie solo puede seguirlo hasta que la liberen.
+  - **Fila 123 (#11874):** Jie pide la dirección completa en el formato de siempre. Karla la saca de Shopify.
+  - **AlbaMed:** 300 en bodega y 197 por despachar, o sea, unas 103 libres para una venta de ~150 al día. Jie le pide más a Kevin mañana y aceptó mandar el conteo cada 2 días. Se le avisa a Martin con los datos.
 - **#7479 (José Francisco, reclamó en Facebook, 26-nov):** compró 3 QuietLab el 23-ago y le llegaron otros dispositivos, rígidos. El 16-oct se le prometió mandar los correctos y aceptó, pero **nunca se le pidió a Jie**. Quedó la gestión de reenvío `por_enviar` (3 AlbaMed y 1 de regalo, a la misma dirección). Su correo (molde A1) está en la lista de Karla, y el comentario de Facebook está en el chat. Karla manda primero el mensaje a Jie y después el correo. Antes, revisar en el WhatsApp si Karla ya lo había pedido a mano.
 - **Avisos de excepción (26-nov):** fueron 350 pedidos en 14 días.
   - 43 ya se entregaron y 213 van en camino.
