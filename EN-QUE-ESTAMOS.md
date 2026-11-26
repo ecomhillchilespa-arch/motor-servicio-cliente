@@ -4,7 +4,7 @@
 
 ## Esperando a Karla
 - **22 datos sin gestión (26-nov):**
-  - 4 van al Sheet de Jie: filas 144 a 147 (#14479, #14498, #14499 y #14502).
+  - 4 al Sheet de Jie: Karla pegó las filas 144 a 147 (#14479, #14498, #14499 y #14502) y le avisó. Quedaron registradas como gestiones `enviado` (ids 216 a 219).
   - 5 se cerraron: correo vacío; #13306, que dice que ya tenemos todo; y #13737 y #14390, que ya estaban con Jie.
   - **6 ya despachados con el dato tarde**: #13116, #13434, #13250, #13363, #13080 y #12951. Jie no puede cambiarlos en tránsito (solo después de un intento fallido), así que esperan el molde del issue #2.
   - **Excepciones:**
