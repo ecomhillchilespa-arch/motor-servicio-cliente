@@ -369,15 +369,10 @@ Mariana
 - 🚩 Para Martin: el diagnóstico del 18-nov decía que contestarle a cada etiqueta con una promoción «se ve como spam». Esta respuesta es corta, no trae promoción y no se repite igual muchas veces en el mismo anuncio (si hay varias etiquetas seguidas, se responde a una o dos).
 
 ## De los comentarios reales que trajo Karla (25-nov)
-Karla pegó 10 comentarios de los anuncios con las respuestas que le propone el asistente de Meta. Casi todos ya tienen molde: «Solo por 650 pesos» (R01, sin precio), «Lo pedí hace un mes y no llega» y «Todavía no llega mi pedido» (R04), «Informe» (R11), «Qué tiempo duran» (R12) y «Quién ya las compró» (R05). Faltaban 3, que se agregan abajo.
+Karla pegó 10 comentarios de los anuncios. Casi todos ya tienen molde: «Solo por 650 pesos» (R01, sin precio), «Lo pedí hace un mes y no llega» y «Todavía no llega mi pedido» (R04), «Informe» (R11), «Qué tiempo duran» (R12) y «Quién ya las compró» (R05). Faltaban 3, que se agregan abajo.
 
-**Cuidado con las respuestas del asistente de Meta** (no se usan tal cual):
-- Nombran la garantía («90 días», «30 noches de prueba»), que es la decisión 5 de Martin.
-- Ponen promociones con precio («2 por $899», «1+1 gratis»), que cambian y no siempre coinciden con lo que ve la clienta.
-- Dicen «grado médico» (R7).
-- Dan una forma de uso equivocada para VisionPure («por la mañana, parpadeando un par de veces»). La del envase es 2 o 3 veces al día, 2 rociadas por párpado y parpadear 5 veces.
-- Pegan el enlace copiado de Facebook (`l.facebook.com/…?fbclid=…`) y a veces el de la tienda de España (`alegrestiendaes.com`) en un anuncio de México (R10). Siempre se pega el enlace limpio del producto.
-- Usan «¡Hola, X!» con varias exclamaciones y varios emojis (R11).
+**Respuestas viejas ya publicadas con precios y promos vencidas** (Karla, 25-nov: «lo que hay que indicarle son los post viejos con estos precios»). En los anuncios siguen a la vista respuestas con «descuentos de Buen Fin», «2 por $899» y la garantía. Se le pregunta a Martin si Karla las edita con la respuesta nueva (decisión 7 del issue #4).
+- Siempre se pega el enlace limpio del producto, no el copiado desde Facebook (`l.facebook.com/…?fbclid=…`) ni el de la tienda de España en un anuncio de México (R10).
 
 ## R13 · «¿Tienes por Mercado Libre?» (nuevo)
 **Camino A**
