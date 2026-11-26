@@ -3,6 +3,11 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Lote 9 (26-nov), pagos, otros, sin motivo y cancelaciones:**
+  - 7 textos en la lista de Karla: 4 de «¿dónde está?» o de «orden eliminada» y 3 de quienes no pudieron pagar.
+  - 27 cerrados: publicidad, solo «gracias», respuestas automáticas y correos sin texto.
+  - Los 26 que quedan se sumaron a la lista «📋 Correos para ver uno por uno» de Notion, separados en plata (los decide Karla), desconfianza, no le funcionó y pedidos para ver.
+  - Ojo con uno que pagó por PayPal y recibió un WhatsApp diciendo que «no llegó el pago»: puede ser alguien haciéndose pasar por la tienda.
 - **Preguntas de producto (26-nov):** 9 respuestas en la lista de Karla. 8 son individuales: cómo comprar, formas de pago (sin efectivo, OXXO, transferencia ni pago al recibir) y los enlaces de los dos productos. La otra es el libro digital de #11935. Se cerraron #14456 (ya compró) y #8639 (caso viejo de septiembre).
 - **Lista «📋 Correos para ver uno por uno»** en la página de Karla en Notion: reúne todos los casos que no tienen molde (buscar en Shopify, preguntas de producto, pedidos raros, España, los que esperan a Jie y los que decide Martin). Karla los responde desde ahí.
 - **22 datos sin gestión (26-nov):**
