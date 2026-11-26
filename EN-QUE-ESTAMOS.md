@@ -3,6 +3,17 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **22 datos sin gestión (26-nov):**
+  - 4 van al Sheet de Jie: filas 144 a 147 (#14479, #14498, #14499 y #14502).
+  - 5 se cerraron: correo vacío; #13306, que dice que ya tenemos todo; y #13737 y #14390, que ya estaban con Jie.
+  - **6 ya despachados con el dato tarde**: #13116, #13434, #13250, #13363, #13080 y #12951. Jie no puede cambiarlos en tránsito (solo después de un intento fallido), así que esperan el molde del issue #2.
+  - **Excepciones:**
+    - #13158 y #13787 mandaron el correo sin el dato.
+    - #13300 quiere cambiar la dirección pero no dice cuál.
+    - #11875 pregunta en qué domicilio lo entregaron.
+    - #3833 es un pedido de julio, con una dirección nueva sin número de pedido.
+    - «26320EE1CAJA» fue pagado con Bizum: no parece de esta tienda.
+    - Hay 2 sin número de pedido que Karla busca en Shopify: depcocula (Puerto Vallarta) y josemiguel.lv (AlbaMed a Puebla).
 - **Los 9 abiertos del lote 7 (26-nov):**
   - #13388 tiene texto en la lista de Karla: se le explica de dónde sale el pedido, con la frase aprobada de origen.
   - **#10819:** el reenvío prometido nunca salió y pidió los $1,299. Karla eligió ofrecer otra vez el reenvío, con una unidad de regalo (molde A1, el texto está en su lista). La gestión 61 quedó en `esperando_dato`. Si la clienta responde que no lo quiere, el reembolso va sin demora.
