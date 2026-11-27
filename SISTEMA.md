@@ -196,3 +196,10 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - En Shopify → CWILL (Parcel Panel) → Settings → Shipping notifications, los avisos «Exception» y «Failed attempt» mostraban «Transportista: YunExpress» y «Contacto del transportista: 400-8575-500» (un teléfono de China), y pedían «contacta al transportista». Salían también cuando Jie cambiaba la etiqueta (733 correos en 14 días).
 - Martin aprobó el cambio (27-nov): se sacaron el transportista y el teléfono (queda solo el número de seguimiento) y el texto dice que no tiene que hacer nada y que si hace falta un dato le escribimos. Los dos avisos («Exception» y «Failed attempt») se guardaron el 27-nov.
 - ParcelPanel no deja saltarse solo las excepciones por cambio de etiqueta; las fallas reales de J&T las toma la alerta J&T (issue #5).
+
+## Alerta J&T con la guía JMX (molde B, issue #5, 27-nov)
+- `ops_alegres_rescate_pendientes()` (la llama `63BbJp1q9gTVVbjb` cada 15 min): detecta fallas reales de J&T en México y guarda el molde B en `ops_alegres_datos_envio` con `rescate_estado = 'falta_jmx'`, `rescate_motivo` (`direccion` o `no_contesta`) y `rescate_creado_at`. Nunca pone la guía YT.
+- `ops_alegres_tareas_karla()`: nueva rama `jt:<pedido>` («J&T no pudo entregar: #… (pega la guía JMX)»), por 5 días o hasta que se entregue o se devuelva. Interruptor `rescate_jt_karla` (apagado).
+- `ops_alegres_encolar_aprobado` (K1): si la referencia empieza con `jt:`, llama a `ops_alegres_aprobar_rescate(pedido, texto)`, que exige JMX y 12 números, sin «{}» ni guía YT y que pase el revisor, y deja `por_enviar`.
+- El envío sale solo si `rescate_jt_enviar` = true (apagado) y el texto trae la JMX. Gmail, asunto «Tu pedido #… ya está en tu ciudad».
+- K3 no archiva solo las filas `jt:`: K1 las archiva al aprobar; si el pedido se entrega antes, Karla la archiva.
