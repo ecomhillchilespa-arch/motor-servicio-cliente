@@ -194,5 +194,5 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 
 ## Avisos automáticos de ParcelPanel a las clientas (27-nov)
 - En Shopify → CWILL (Parcel Panel) → Settings → Shipping notifications, los avisos «Exception» y «Failed attempt» mostraban «Transportista: YunExpress» y «Contacto del transportista: 400-8575-500» (un teléfono de China), y pedían «contacta al transportista». Salían también cuando Jie cambiaba la etiqueta (733 correos en 14 días).
-- Martin aprobó el cambio (27-nov): se sacaron el transportista y el teléfono (queda solo el número de seguimiento) y el texto dice que no tiene que hacer nada y que si hace falta un dato le escribimos. «Exception» se guardó el 27-nov; «Failed attempt» quedó igual.
+- Martin aprobó el cambio (27-nov): se sacaron el transportista y el teléfono (queda solo el número de seguimiento) y el texto dice que no tiene que hacer nada y que si hace falta un dato le escribimos. Los dos avisos («Exception» y «Failed attempt») se guardaron el 27-nov.
 - ParcelPanel no deja saltarse solo las excepciones por cambio de etiqueta; las fallas reales de J&T las toma la alerta J&T (issue #5).
