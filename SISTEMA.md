@@ -156,6 +156,16 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
   - Lee el Sheet (registro y encargos) y `ops_alegres_stock_por_dia`.
   - Arma un semáforo y el mensaje para Jie. Nunca sugiere pedidos ni pagos.
 
+## Dato del molde A que no llegaba a Jie (27-nov, issue #2, arreglo de raíz)
+- Nueva rama `dt:<pedido>` en `ops_alegres_tareas_karla`: la clienta respondió al molde A (`ops_alegres_datos_envio`, `correo_estado = 'enviado'`) en los últimos 14 días, el pedido sigue en `origen`, no hay gestión `cambio_direccion` y el hilo no está cerrado. Le aparece a Karla «Pasar a Jie el dato de la clienta: #…» con la respuesta, para que la pase al Sheet de Jie (o la archive si no trae el dato). Se excluyen los rebotes de correo (mailer-daemon y «** …»).
+- Al encenderlo eran 22. Ojo: `ops_alegres_datos_envio.respondio_at` nunca se llena (0 de 172 respuestas); la regla mira los correos del hilo.
+- Hallazgo aparte: algunos correos del molde A rebotan (dirección mala o bandeja llena), así que esa clienta nunca recibió el pedido de datos.
+
+## Comentarios de los anuncios → Notion de Karla (27-nov, issue #3, solo lectura)
+- Flujo `2jcmB4drgM1xhswR` «[SAC] Redes: comentarios de anuncios → Notion de Karla», cada 30 minutos (:10 y :40). Lee los anuncios activos de la cuenta JP2 `act_3066900430267301`, los comentarios de Facebook (también los ocultos) y de Instagram de las últimas 48 h, sin los de la propia página. Los guarda en `ops_alegres_redes_comentarios` (para no repetir) y crea una fila por comentario en «✅ Tareas de Karla» (Ref `rd:<id>`, con el enlace a Meta).
+- No responde, no oculta y no manda privados. El flujo viejo de diagnóstico `Cxh26r6KdaCnJ55x` sigue apagado.
+- Al encenderlo: 60 comentarios en 48 h (6 ocultos y 6 de Instagram). Meta no entrega el nombre de quien comenta; la fila muestra el comienzo del comentario.
+
 ## Roca R2: reporte semanal de Karla (20-nov, Martin: «r2 perfecta»)
 - **Flujo** `cbTU6E1AG6yj5wOD`, con dos partes:
   - **viernes 09:00** crea en «🤝 Megafulfill» la fila «📊 Reporte semanal · <semana>» (Tipo «Reporte semanal», Ref `rs:<viernes>`, sin duplicar). En «Qué pasa» van los números de `ops_alegres_reporte_semanal(viernes)` (semana del viernes anterior al jueves) más los cobros mal hechos de la misma lista;
@@ -181,3 +191,15 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - En n8n ya existe el esqueleto: ingreso `3Z8FknSmYMNAnHT2` (hoy lee solo la página, no los anuncios), borradores `jPPTMOGAGaebsx5K` (apagado) y envío `RCVVyxA9GTUPfnUn`. El flujo de lectura de anuncios `Cxh26r6KdaCnJ55x` está apagado y solo escribe un resumen en `ops_alegres_diag`.
 - Los anuncios salen de la cuenta JP2 y de las páginas «Revista Alquimia» y «Oftalmólogo - Dr Arturo Sánchez».
 - Regla: no se responde, oculta ni manda nada por redes hasta que Martin apruebe los moldes y el paso de construcción correspondiente.
+
+## Avisos automáticos de ParcelPanel a las clientas (27-nov)
+- En Shopify → CWILL (Parcel Panel) → Settings → Shipping notifications, los avisos «Exception» y «Failed attempt» mostraban «Transportista: YunExpress» y «Contacto del transportista: 400-8575-500» (un teléfono de China), y pedían «contacta al transportista». Salían también cuando Jie cambiaba la etiqueta (733 correos en 14 días).
+- Martin aprobó el cambio (27-nov): se sacaron el transportista y el teléfono (queda solo el número de seguimiento) y el texto dice que no tiene que hacer nada y que si hace falta un dato le escribimos. Los dos avisos («Exception» y «Failed attempt») se guardaron el 27-nov.
+- ParcelPanel no deja saltarse solo las excepciones por cambio de etiqueta; las fallas reales de J&T las toma la alerta J&T (issue #5).
+
+## Alerta J&T con la guía JMX (molde B, issue #5, 27-nov)
+- `ops_alegres_rescate_pendientes()` (la llama `63BbJp1q9gTVVbjb` cada 15 min): detecta fallas reales de J&T en México y guarda el molde B en `ops_alegres_datos_envio` con `rescate_estado = 'falta_jmx'`, `rescate_motivo` (`direccion` o `no_contesta`) y `rescate_creado_at`. Nunca pone la guía YT.
+- `ops_alegres_tareas_karla()`: nueva rama `jt:<pedido>` («J&T no pudo entregar: #… (pega la guía JMX)»), por 5 días o hasta que se entregue o se devuelva. Interruptor `rescate_jt_karla` (encendido el 27-nov, con el OK de Martin).
+- `ops_alegres_encolar_aprobado` (K1): si la referencia empieza con `jt:`, llama a `ops_alegres_aprobar_rescate(pedido, texto)`, que exige JMX y 12 números, sin «{}» ni guía YT y que pase el revisor, y deja `por_enviar`.
+- El envío sale solo si `rescate_jt_enviar` = true (encendido el 27-nov) y el texto trae la JMX. Gmail, asunto «Tu pedido #… ya está en tu ciudad».
+- K3 no archiva solo las filas `jt:`: K1 las archiva al aprobar; si el pedido se entrega antes, Karla la archiva.

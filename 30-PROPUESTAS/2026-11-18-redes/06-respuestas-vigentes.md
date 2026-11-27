@@ -1,5 +1,7 @@
 # 06 · Respuestas de redes vigentes (25-nov, tono cálido)
 
+*Aprobadas por Martin el 27-nov, con 3 cambios: «ojos cerrados unos 30 segundos» en vez de «parpadear 5 veces» (R09 y R14, por la irritación del 17-nov), bruxismo en su versión cerrada (R07b, salud) y sin «materiales resistentes» (R12). R03 (27-nov, Martin): el plazo que se demora el 80 % desde que sale el pedido, sin el procesamiento: unos 15 días (pedidos de México del 1 al 25-oct, 1.468 entregados; el procesamiento toma 1 a 2 días).*
+
 *Se arma desde la carpeta `moldes/`, que es donde vive el texto vigente. Corregidas con Karla el 25-nov y todas pasan `scripts/revisar_redes.py`. Los motivos de cada cambio y lo que decide Martin están en `04-moldes.md`.*
 
 Cómo se usan a mano mientras no exista el motor: se copia el texto, se cambia `{nombre}` por el nombre de la persona del comentario y `{enlace del producto}` por el enlace limpio del producto del anuncio.
@@ -56,7 +58,7 @@ Mariana
 
 ## R03 · ¿Cuánto tarda? (antes de comprar) · comentario público
 ```
-Hola {nombre}, con mucho gusto te cuento 😊 Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
+Hola {nombre}, con mucho gusto te cuento 😊 Una vez que sale tu pedido, te llega en unos 15 días, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
 {enlace del producto}
 Mariana
 ```
@@ -127,7 +129,7 @@ Mariana
 
 ## R07b · Bruxismo (AlbaMed) · comentario público
 ```
-Hola {nombre}, muchas gracias por preguntar 😊 AlbaMed está pensada para el ronquido, con su diseño ajustable y flexible, y no es una férula odontológica para el bruxismo. Si aprietas o rechinas los dientes al dormir, puedes probar sus posiciones para ver cuál te resulta más cómoda, pero con sinceridad, no está pensada para esa condición.
+Hola {nombre}, muchas gracias por preguntar 😊 AlbaMed es una férula antirronquidos ajustable, pero no es una férula para el bruxismo. Si lo que buscas es dejar de apretar o rechinar los dientes al dormir, preferimos decirte con sinceridad que no está pensada para eso.
 Mariana
 ```
 
@@ -141,7 +143,7 @@ Mariana
 ```
 Hola {nombre}, muchas gracias por contarnos cómo te fue, y qué pena que no hayas notado el cambio.
 
-Nos gustaría que ahora sí te funcione. ¿Me cuentas cómo lo estás aplicando y hace cuánto lo usas? Te pregunto porque lo que mejor resulta es lo que indica el envase. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadear 5 veces. Se aplica 2 o 3 veces al día, todos los días, porque lo más importante es la constancia.
+Nos gustaría que ahora sí te funcione. ¿Me cuentas cómo lo estás aplicando y hace cuánto lo usas? Te pregunto porque lo que mejor resulta es así. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después dejar los ojos cerrados unos 30 segundos, hasta que se seque. Se aplica 2 o 3 veces al día, todos los días, porque lo más importante es la constancia.
 
 Con lo que me cuentes vemos juntos el paso siguiente.
 
@@ -176,7 +178,7 @@ Mariana
 
 ## R12 · ¿Cuánto dura la férula? · comentario público
 ```
-Hola {nombre}, qué bueno que te interesa AlbaMed 😊 Es un producto pensado para durar, porque está hecho con materiales resistentes. Igual depende del uso y del cuidado de cada persona, así que te recomendamos revisarla de vez en cuando y cambiarla cuando notes desgaste. En este enlace ves el precio y todos los detalles.
+Hola {nombre}, qué bueno que te interesa AlbaMed 😊 Es un producto pensado para durar. Igual depende del uso y del cuidado de cada persona, así que te recomendamos revisarla de vez en cuando y cambiarla cuando notes desgaste. En este enlace ves el precio y todos los detalles.
 https://alegrestiendamexico.com/products/albamed-ferula-antirronquidos
 Mariana
 ```
@@ -190,7 +192,7 @@ Mariana
 
 ## R14 · ¿Cada cuándo se usa? (VisionPure) · comentario público
 ```
-Hola {nombre}, con mucho gusto te cuento 😊 VisionPure se aplica 2 o 3 veces al día, todos los días. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y después parpadeas 5 veces. Va por fuera, nunca directo al ojo. En este enlace ves todos los detalles.
+Hola {nombre}, con mucho gusto te cuento 😊 VisionPure se aplica 2 o 3 veces al día, todos los días. Con los ojos cerrados, 2 rociadas sobre cada párpado a unos 10 cm, y dejas los ojos cerrados unos 30 segundos, hasta que se seque. Va por fuera, nunca directo al ojo. En este enlace ves todos los detalles.
 https://alegrestiendamexico.com/products/visionpure-spray-lutein-ojos
 Mariana
 ```
