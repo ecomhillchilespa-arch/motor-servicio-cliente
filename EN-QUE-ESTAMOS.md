@@ -3,6 +3,7 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **27-nov, Martin aprobó y quedó armado:** (1) los comentarios de los anuncios, también los ocultos, le llegan a Karla a «✅ Tareas de Karla» cada 30 minutos (issue #3, cerrado); (2) las respuestas al molde A que nadie le pasó a Jie le llegan como «Pasar a Jie el dato de la clienta» (22 al encender; arreglo de raíz del issue #2); (3) tarea para editar en Meta las respuestas viejas con promos vencidas (issue #4, punto 7).
 - **Casos de plata (27-nov, Karla eligió seguir las recomendaciones):**
   - #5255: reenvío con el molde A2. La gestión quedó en `esperando_dato`.
   - #5475: no se devuelve; se la ayuda a usarla.
@@ -79,7 +80,6 @@
 ## Esperando a Martin (decisiones)
 - **Alerta de entregas fallidas de J&T (issue #5, 26-nov):** que el molde B se arme solo en Notion, pero solo para fallas reales en México. Karla copia la guía JMX desde ParcelPanel. De 444 avisos de «excepción» en 14 días, 76 eran cambios de etiqueta en China y solo unos 4 eran fallas reales. Arreglo de raíz: que ParcelPanel no avise por un cambio de etiqueta.
 - **Respuestas de redes (issue #4, 25-nov):** Karla corrigió las 28 respuestas (`30-PROPUESTAS/2026-11-18-redes/06-respuestas-vigentes.md`). Martin decide: aprobarlas, el plazo «5 a 15 días hábiles», bruxismo, etiquetas, Mercado Libre, «materiales resistentes» y el enlace de rastreo en el privado. Mientras tanto, Karla las usa a mano en Meta.
-- **Redes, paso 1 (issue #3, 25-nov):** que los comentarios de los anuncios, también los ocultos, lleguen al Notion de Karla, solo para leerlos. Karla responde y oculta a mano desde Meta y no le aparecen todos.
 - **Un permiso para Karla** (issue #1, 23-nov): **editora en el Sheet «Alegres Mexico».** Hoy solo puede verlo, así que su Claude no anota el stock. (Lo de ser miembro en el Notion de ecomhill quedó listo el 23-nov: su Claude ya lee sus dos listas.)
 - **Roca R2:** el reporte semanal de Karla parte el viernes 27-nov. Falta que Martin le mande el mensaje una vez.
 - **Molde «tu reenvío ya salió»**: lo aprueba Martin. Hay 17 reenvíos ya despachados sin correo a la clienta.

@@ -156,6 +156,16 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
   - Lee el Sheet (registro y encargos) y `ops_alegres_stock_por_dia`.
   - Arma un semáforo y el mensaje para Jie. Nunca sugiere pedidos ni pagos.
 
+## Dato del molde A que no llegaba a Jie (27-nov, issue #2, arreglo de raíz)
+- Nueva rama `dt:<pedido>` en `ops_alegres_tareas_karla`: la clienta respondió al molde A (`ops_alegres_datos_envio`, `correo_estado = 'enviado'`) en los últimos 14 días, el pedido sigue en `origen`, no hay gestión `cambio_direccion` y el hilo no está cerrado. Le aparece a Karla «Pasar a Jie el dato de la clienta: #…» con la respuesta, para que la pase al Sheet de Jie (o la archive si no trae el dato). Se excluyen los rebotes de correo (mailer-daemon y «** …»).
+- Al encenderlo eran 22. Ojo: `ops_alegres_datos_envio.respondio_at` nunca se llena (0 de 172 respuestas); la regla mira los correos del hilo.
+- Hallazgo aparte: algunos correos del molde A rebotan (dirección mala o bandeja llena), así que esa clienta nunca recibió el pedido de datos.
+
+## Comentarios de los anuncios → Notion de Karla (27-nov, issue #3, solo lectura)
+- Flujo `2jcmB4drgM1xhswR` «[SAC] Redes: comentarios de anuncios → Notion de Karla», cada 30 minutos (:10 y :40). Lee los anuncios activos de la cuenta JP2 `act_3066900430267301`, los comentarios de Facebook (también los ocultos) y de Instagram de las últimas 48 h, sin los de la propia página. Los guarda en `ops_alegres_redes_comentarios` (para no repetir) y crea una fila por comentario en «✅ Tareas de Karla» (Ref `rd:<id>`, con el enlace a Meta).
+- No responde, no oculta y no manda privados. El flujo viejo de diagnóstico `Cxh26r6KdaCnJ55x` sigue apagado.
+- Al encenderlo: 60 comentarios en 48 h (6 ocultos y 6 de Instagram). Meta no entrega el nombre de quien comenta; la fila muestra el comienzo del comentario.
+
 ## Roca R2: reporte semanal de Karla (20-nov, Martin: «r2 perfecta»)
 - **Flujo** `cbTU6E1AG6yj5wOD`, con dos partes:
   - **viernes 09:00** crea en «🤝 Megafulfill» la fila «📊 Reporte semanal · <semana>» (Tipo «Reporte semanal», Ref `rs:<viernes>`, sin duplicar). En «Qué pasa» van los números de `ops_alegres_reporte_semanal(viernes)` (semana del viernes anterior al jueves) más los cobros mal hechos de la misma lista;
