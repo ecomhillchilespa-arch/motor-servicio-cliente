@@ -3,6 +3,14 @@
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
 
 ## Esperando a Karla
+- **Casos de plata (27-nov, Karla eligió seguir las recomendaciones):**
+  - #5255: reenvío con el molde A2. La gestión quedó en `esperando_dato`.
+  - #5475: no se devuelve; se la ayuda a usarla.
+  - **#14349: primero se devuelven los $699 en Shopify** y después se manda el correo.
+  - **#13750: si el anuncio decía 20 %**, se le devuelven unos $70 y después se manda el correo.
+  - A 2 sin pedido se les pide el comprobante.
+  - Se cerraron #14097 (ya devuelto) y uno sin pedido.
+  - Elena Costache: el motor le había puesto el #2819 por los dígitos de su tarjeta, pero ese pedido es de otra clienta. Va a la lista de uno por uno.
 - **Clientas sin pedido (27-nov):** Karla las buscó en Shopify y no aparecen. Hay 7 correos en su lista:
   - 6 piden el comprobante de pago para buscar la compra por la transacción: Celeste (España, 0 pedidos), Nikki, José Manuel, José Miguel, depcocula y la de Scotiabank.
   - 1 le explica a la clienta del correo yaretzi que su pago no pasó: el código de seguridad no coincidió y quedó como carrito abandonado.
