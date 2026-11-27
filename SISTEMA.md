@@ -199,7 +199,7 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 
 ## Alerta J&T con la guía JMX (molde B, issue #5, 27-nov)
 - `ops_alegres_rescate_pendientes()` (la llama `63BbJp1q9gTVVbjb` cada 15 min): detecta fallas reales de J&T en México y guarda el molde B en `ops_alegres_datos_envio` con `rescate_estado = 'falta_jmx'`, `rescate_motivo` (`direccion` o `no_contesta`) y `rescate_creado_at`. Nunca pone la guía YT.
-- `ops_alegres_tareas_karla()`: nueva rama `jt:<pedido>` («J&T no pudo entregar: #… (pega la guía JMX)»), por 5 días o hasta que se entregue o se devuelva. Interruptor `rescate_jt_karla` (apagado).
+- `ops_alegres_tareas_karla()`: nueva rama `jt:<pedido>` («J&T no pudo entregar: #… (pega la guía JMX)»), por 5 días o hasta que se entregue o se devuelva. Interruptor `rescate_jt_karla` (encendido el 27-nov, con el OK de Martin).
 - `ops_alegres_encolar_aprobado` (K1): si la referencia empieza con `jt:`, llama a `ops_alegres_aprobar_rescate(pedido, texto)`, que exige JMX y 12 números, sin «{}» ni guía YT y que pase el revisor, y deja `por_enviar`.
-- El envío sale solo si `rescate_jt_enviar` = true (apagado) y el texto trae la JMX. Gmail, asunto «Tu pedido #… ya está en tu ciudad».
+- El envío sale solo si `rescate_jt_enviar` = true (encendido el 27-nov) y el texto trae la JMX. Gmail, asunto «Tu pedido #… ya está en tu ciudad».
 - K3 no archiva solo las filas `jt:`: K1 las archiva al aprobar; si el pedido se entrega antes, Karla la archiva.

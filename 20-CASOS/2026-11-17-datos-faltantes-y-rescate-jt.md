@@ -1,6 +1,6 @@
 # Moldes · Datos que faltan (A) y rescate cuando J&T no encuentra el domicilio (B)
 
-**Estado:** A aprobado en su versión final («dale», 17-nov) y ENCENDIDO: el primer día salieron 64 de 86, y el resto sale de a 15 cada 15 minutos. B (27-nov, issue #5): la guía JMX la pega Karla; sin ella no sale. Armado y probado en seco, con dos interruptores apagados (`rescate_jt_karla` para la lista de Karla y `rescate_jt_enviar` para el envío) hasta el OK de Martin a la versión final.
+**Estado:** A aprobado en su versión final («dale», 17-nov) y ENCENDIDO: el primer día salieron 64 de 86, y el resto sale de a 15 cada 15 minutos. B (27-nov, issue #5): la guía JMX la pega Karla; sin ella no sale. Martin aprobó la versión final el 27-nov y quedó ENCENDIDO (`rescate_jt_karla` y `rescate_jt_enviar` = true). Sale solo cuando Karla pega la guía JMX y marca ✔ Enviar.
 **Flujo:** n8n `63BbJp1q9gTVVbjb` «[SAC] Datos de envío completos y rescate J&T (Alegres)», que corre cada 15 minutos. Tabla `ops_alegres_datos_envio`.
 
 ## Por qué existen
@@ -85,5 +85,5 @@ Mariana
 - **Cuándo:** J&T en México marca «No se contesta la llamada», «Información de dirección incompleta o incorrecta», «Reparto fallido» o «excedido tiempo de almacén» en los últimos 3 días, y después no hay entrega ni devolución. Solo México (España la ve Karla).
 - **Cuánto pasa:** en 30 días, 85 pedidos de México tuvieron una de esas fallas: 53 se entregaron igual, 19 se devolvieron y 13 siguen abiertos. Son unos 15 a 20 avisos por semana.
 - **Cómo sale:** el motor deja el texto en «✅ Tareas de Karla» con «{GUÍA JMX}». Karla copia la guía JMX desde ParcelPanel, la pega y marca «✔ Enviar». Si falta la guía, si no son JMX y 12 números o si aparece una guía YT, se le devuelve con la corrección. Lo manda el flujo `63BbJp1q9gTVVbjb`.
-- **Dos versiones:** «no logró dar con tu domicilio» (la aprobada el 17-nov) y, cuando J&T no logró hablar con la clienta (2 de cada 3 casos), «no logró comunicarse contigo… escríbeles… con tu número de guía {GUÍA JMX} y un teléfono donde te encuentren, con el horario en que puedes recibirlo». **La segunda espera el OK de Martin.**
+- **Dos versiones:** «no logró dar con tu domicilio» (la aprobada el 17-nov) y, cuando J&T no logró hablar con la clienta (2 de cada 3 casos), «no logró comunicarse contigo… escríbeles… con tu número de guía {GUÍA JMX} y un teléfono donde te encuentren, con el horario en que puedes recibirlo». Martin aprobó la segunda el 27-nov («apruebo el texto»).
 - Los 10 rescates viejos del 17/18-nov (con la guía YT) quedaron en `viejo` y no salen nunca.
