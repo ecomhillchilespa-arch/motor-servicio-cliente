@@ -42,7 +42,7 @@ CLAIMS = {
         'no se atribuye una recomendación médica',
 }
 
-# Plazos: el único plazo que se da es el del motor (compra + 18 días; reenvío, salida + 11).
+# Plazos: correo = compra + 18 días (reenvío, salida + 11); redes antes de comprar (R03) = «unos 15 días» desde que sale (Martin, 27-nov).
 PLAZOS = r'\b(\d+ a \d+|\d+) d[ií]as (h[aá]biles|naturales)\b'
 
 # En un comentario público nunca van datos de un pedido o de una persona.
@@ -109,7 +109,7 @@ def revisar(tipo, texto):
 
     m = re.search(PLAZOS, low)
     if m:
-        errores.append(f'"{m.group(0)}": el único plazo es "a más tardar en 18 días" desde la compra')
+        errores.append(f'"{m.group(0)}": sin «días hábiles/naturales»: correo «a más tardar en 18 días» desde la compra; R03 «unos 15 días» desde que sale')
 
     # Links: solo el de la tienda, limpio.
     for link in re.findall(r'https?://\S+', t):

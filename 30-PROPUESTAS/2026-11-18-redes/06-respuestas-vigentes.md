@@ -1,6 +1,6 @@
 # 06 · Respuestas de redes vigentes (25-nov, tono cálido)
 
-*Aprobadas por Martin el 27-nov, con 3 cambios: «ojos cerrados unos 30 segundos» en vez de «parpadear 5 veces» (R09 y R14, por la irritación del 17-nov), bruxismo en su versión cerrada (R07b, salud) y sin «materiales resistentes» (R12). El plazo de R03 todavía lo define Martin.*
+*Aprobadas por Martin el 27-nov, con 3 cambios: «ojos cerrados unos 30 segundos» en vez de «parpadear 5 veces» (R09 y R14, por la irritación del 17-nov), bruxismo en su versión cerrada (R07b, salud) y sin «materiales resistentes» (R12). R03 (27-nov, Martin): el plazo que se demora el 80 % desde que sale el pedido, sin el procesamiento: unos 15 días (pedidos de México del 1 al 25-oct, 1.468 entregados; el procesamiento toma 1 a 2 días).*
 
 *Se arma desde la carpeta `moldes/`, que es donde vive el texto vigente. Corregidas con Karla el 25-nov y todas pasan `scripts/revisar_redes.py`. Los motivos de cada cambio y lo que decide Martin están en `04-moldes.md`.*
 
@@ -58,7 +58,7 @@ Mariana
 
 ## R03 · ¿Cuánto tarda? (antes de comprar) · comentario público
 ```
-Hola {nombre}, con mucho gusto te cuento 😊 Tu pedido te estaría llegando a más tardar en 18 días desde tu compra, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
+Hola {nombre}, con mucho gusto te cuento 😊 Una vez que sale tu pedido, te llega en unos 15 días, con envío gratis, y te mandamos a tu correo el enlace para que veas cada avance. En este enlace ves todos los detalles.
 {enlace del producto}
 Mariana
 ```
