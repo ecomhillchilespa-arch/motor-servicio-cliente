@@ -191,3 +191,8 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - En n8n ya existe el esqueleto: ingreso `3Z8FknSmYMNAnHT2` (hoy lee solo la página, no los anuncios), borradores `jPPTMOGAGaebsx5K` (apagado) y envío `RCVVyxA9GTUPfnUn`. El flujo de lectura de anuncios `Cxh26r6KdaCnJ55x` está apagado y solo escribe un resumen en `ops_alegres_diag`.
 - Los anuncios salen de la cuenta JP2 y de las páginas «Revista Alquimia» y «Oftalmólogo - Dr Arturo Sánchez».
 - Regla: no se responde, oculta ni manda nada por redes hasta que Martin apruebe los moldes y el paso de construcción correspondiente.
+
+## Avisos automáticos de ParcelPanel a las clientas (27-nov)
+- En Shopify → CWILL (Parcel Panel) → Settings → Shipping notifications, los avisos «Exception» y «Failed attempt» mostraban «Transportista: YunExpress» y «Contacto del transportista: 400-8575-500» (un teléfono de China), y pedían «contacta al transportista». Salían también cuando Jie cambiaba la etiqueta (733 correos en 14 días).
+- Martin aprobó el cambio (27-nov): se sacaron el transportista y el teléfono (queda solo el número de seguimiento) y el texto dice que no tiene que hacer nada y que si hace falta un dato le escribimos. «Exception» se guardó el 27-nov; «Failed attempt» quedó igual.
+- ParcelPanel no deja saltarse solo las excepciones por cambio de etiqueta; las fallas reales de J&T las toma la alerta J&T (issue #5).
