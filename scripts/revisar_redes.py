@@ -113,6 +113,9 @@ def revisar(tipo, texto):
 
     # Links: solo el de la tienda, limpio.
     for link in re.findall(r'https?://\S+', t):
+        # 27-nov (Martin): en privado sí va el enlace de rastreo, que lleva ?nums=.
+        if tipo == 'privado' and re.fullmatch(r'https://alegrestiendamexico\.com/apps/parcelpanel\?nums=[\w{}]+', link.rstrip('.,')):
+            continue
         if not re.fullmatch(LINK_OK, link.rstrip('.,')):
             errores.append(f'link no permitido o con parámetros ({link[:50]}…): solo alegrestiendamexico.com, sin "?"')
     if len(re.findall(r'https?://\S+', t)) > 1:
