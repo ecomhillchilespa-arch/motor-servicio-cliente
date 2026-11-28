@@ -205,3 +205,6 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - K3 no archiva solo las filas `jt:`: K1 las archiva al aprobar; si el pedido se entrega antes, Karla la archiva.
 
 - **27-nov, falla de la roca R2:** la fila del primer «📊 Reporte semanal» no se creó a las 09:00, porque `ops_alegres_reporte_semanal` tardaba 20 s y la llamada se cortó por tiempo, así que a Karla no le llegó nada. Se arregló: la función pasó a plpgsql y `ops_alegres_stock_por_dia` arma el plan con la fecha (EXECUTE). Ahora tarda ~3 s. El 27-nov no cuenta y la racha parte el viernes 4-dic (`INICIO_R2` en `kpi_karla_scorecard.py`). Karla recibió el aviso en «🤝 Megafulfill» (Ref `aviso:rs:2026-12-04`, que no choca con `rs:<viernes>`).
+
+## Cola real de clientas (28-nov)
+- Vista `ops_alegres_cola_real_v`: última fila `esperando_humano` de cada hilo de los últimos 30 días sin respuesta nuestra después, con el último texto de la clienta, `es_molde_a` y `dias_hab` (días hábiles desde su último mensaje). El tipo (pide / agradece / dato_molde_a) es una primera versión que se afina antes del 4-dic.

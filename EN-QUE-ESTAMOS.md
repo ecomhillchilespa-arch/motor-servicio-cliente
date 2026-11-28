@@ -1,3 +1,8 @@
+## Cola de clientas: es del motor (reunión 27-nov, Martin: «la cola de las clientas sí pásasela al motor SAC») · vence vie 4-dic
+- **Medición inicial (28-nov, últimos 30 días, vista `ops_alegres_cola_real_v`):** 390 conversaciones sin respuesta nuestra. De esas, **227 clientas piden algo de verdad** (159 llevan más de 2 días hábiles y 127 más de 5); 114 respondieron al correo de datos faltantes (molde A: su dato va a Jie, no necesariamente una respuesta); 29 solo agradecen; 16 vienen vacías y 4 son spam.
+- La clasificación es por reglas y se validó con una muestra de 30. Falta afinar «vacío» (adjuntos) y sacar las que ya se resolvieron por otro lado (WhatsApp de Karla, reenvío ya hecho).
+- **Para el viernes:** el número afinado más un plan para bajarla según la capacidad de Karla (qué se responde con moldes aprobados en lote, qué sale con «✔ Enviar» y qué es de Martin). Lo de Karla va a su Notion. Nada nuevo para clientas se enciende sin que Martin vea ejemplos reales.
+
 # En qué estamos (pendientes del motor)
 
 *Lo que está abierto hoy. Quien cierre algo lo saca de aquí, y quien abra algo nuevo lo agrega. Lo más nuevo va arriba. Última actualización: 20-nov, por Martin con Claude.*
