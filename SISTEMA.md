@@ -203,3 +203,5 @@ Dos números semanales que se calculan solos. Son funciones de solo lectura en S
 - `ops_alegres_encolar_aprobado` (K1): si la referencia empieza con `jt:`, llama a `ops_alegres_aprobar_rescate(pedido, texto)`, que exige JMX y 12 números, sin «{}» ni guía YT y que pase el revisor, y deja `por_enviar`.
 - El envío sale solo si `rescate_jt_enviar` = true (encendido el 27-nov) y el texto trae la JMX. Gmail, asunto «Tu pedido #… ya está en tu ciudad».
 - K3 no archiva solo las filas `jt:`: K1 las archiva al aprobar; si el pedido se entrega antes, Karla la archiva.
+
+- **27-nov, falla de la roca R2:** la fila del primer «📊 Reporte semanal» no se creó a las 09:00, porque `ops_alegres_reporte_semanal` tardaba 20 s y la llamada se cortó por tiempo, así que a Karla no le llegó nada. Se arregló: la función pasó a plpgsql y `ops_alegres_stock_por_dia` arma el plan con la fecha (EXECUTE). Ahora tarda ~3 s. El ❌ de esta semana no es de Karla.
