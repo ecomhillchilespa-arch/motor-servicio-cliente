@@ -5,7 +5,7 @@ Lo llama ~/log-diario/correr.sh cada mañana (launchd 07:00), antes de construir
 Toca SOLO estas claves de semanas["<viernes>"]:
   gestiones_jie  gestiones con Jie en por_enviar o enviado con más de 2 días hábiles (meta ≤ 5)
   conteo_stock   días hábiles desde el último conteo de Jie de AlbaMed en el Sheet (meta ≤ 2)
-  reporte_karla  roca R2: ✅/❌ del «📊 Reporte semanal» + racha «N/8» (desde el viernes 27-nov).
+  reporte_karla  roca R2: ✅/❌ del «📊 Reporte semanal» + racha «N/8» (desde el viernes 4-dic; el 27-nov no cuenta).
                  Lo revisa n8n el viernes 18:05 (flujo cbTU6E1AG6yj5wOD → ops_alegres_kpi_reporte). Se reescribe
                  cada viernes revisado; el de esta semana queda «⏳ pendiente» hasta la revisión.
 
@@ -26,7 +26,7 @@ AHORA = dt.datetime.now(TZ)
 HOY = AHORA.date()
 F = HOY + dt.timedelta(days=(4 - HOY.weekday()) % 7)  # viernes de esta semana (hoy si es viernes)
 SECO = '--seco' in sys.argv
-INICIO_R2 = dt.date(2026, 11, 27)  # primer viernes de la roca R2
+INICIO_R2 = dt.date(2026, 12, 4)  # primer viernes de la roca R2 (el 27-nov no cuenta: el motor no creó la fila; CEO/Martin 27-nov)
 
 
 def fecha_corta(iso):
